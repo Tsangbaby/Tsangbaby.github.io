@@ -111,17 +111,17 @@ Sileodepiction: http://iarrays.com/sileo-depiction/biolocker/biolocker.json
 Sponsor: IArrays
 
 Package: com.iarrays.libiarrays.rootless
-Version: 1.0.16-beta-14
+Version: 1.0.16-beta-15
 Architecture: iphoneos-arm64
 Maintainer: IArrays <support@iarrays.com>
-Installed-Size: 640
+Installed-Size: 656
 Pre-Depends: firmware (>=9.0)
 Conflicts: com.iarrays.libiarrays1, com.iarrays.libiarrays, com.iarrays.libiarrays.roothide
-Filename: debs/com.iarrays.libiarrays.rootless_1.0.16-beta-14_iphoneos-arm64.deb
-Size: 120374
-MD5sum: 0b6464a3402d6e3d51f4610783c9da54
-SHA1: 82c80fbf8545ed6c30051cfff6ac6b3e37d84964
-SHA256: 0e5e94ba0a634de7111eb4cf0c608a42d443b5c78dda27612b0dbe04eca90679
+Filename: debs/com.iarrays.libiarrays.rootless_1.0.16-beta-15_iphoneos-arm64.deb
+Size: 120386
+MD5sum: 328c308d158d6147c579ff9b022e74ec
+SHA1: 8141d41df9cd00bec7366b1511911432177c8b14
+SHA256: f3c0c618960d52e18fbb438a075a030aba82a524199b4fdd5c0b97a9eba64d10
 Section: Development
 Homepage: http://iarrays.com/
 Description: Should be used only by IArrays products. This is closed library and no support is provided for this package.

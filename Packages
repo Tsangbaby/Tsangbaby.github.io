@@ -33,6 +33,22 @@ Depiction: https://b4db1r3.github.io/d3vr3p0/depictions/web/?p=com.b4db1r3.ocd_R
 Name: OCD (iOS 15-17 | Roothide & Dopamine)
 Sileodepiction: https://b4db1r3.github.io/d3vr3p0/depictions/native/com.b4db1r3.ocd_ROOTLESS/depiction.json
 
+Package: com.brend0n.nokeyboardsettings
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: Brend0n <brendonjkding@126.com>
+Installed-Size: 216
+Depends: mobilesubstrate
+Filename: debs/com.brend0n.nokeyboardsettings_0.0.1_iphoneos-arm64.deb
+Size: 5948
+MD5sum: 3078192a9f381c294ee6ff8540d2df4c
+SHA1: b5fc79277ac9f8256ed46d7b009d8d516819f134
+SHA256: 4fc0e8a2b5984bf2d2f74488cf06c39ed43e0351be00cd6cb84012e7f69c79df
+Section: Tweaks
+Description: Remove Keyboard Settings and Hand Bias Switch.
+Author: Brend0n <brendonjkding@126.com>
+Name: NoKeyboardSettings
+
 Package: com.cydiageek.ermete
 Version: 1.0.5
 Architecture: iphoneos-arm64

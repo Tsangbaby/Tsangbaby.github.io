@@ -1,3 +1,23 @@
+Package: com.anthopak.pancake-rootless
+Version: 2.3
+Architecture: iphoneos-arm64
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Depends: firmware (>=11.0), mobilesubstrate, ws.hbang.common (>= 1.14), com.opa334.altlist, firmware (>= 11.0)
+Filename: debs/com.anthopak.pancake-rootless_2.3_iphoneos-arm64.deb
+Size: 139378
+MD5sum: 7f4aeb3ffdc84893945a14df6b9c99e9
+SHA1: 3d5ba26615ac29d8b288997cbe9ea79248b2e456
+SHA256: 612855d062452167cce3c39c38161ab2b0339c3ecdb685d2e54a6bd4083bacdd
+Section: Tweaks
+Homepage: https://repo.anthopak.dev
+Description: Interactive dismiss gesture on the whole screen in all apps and ability to restore previous page
+Author: AnthoPak <anthopakdev@gmail.com>
+Depiction: https://repo.anthopak.dev/depiction/web/com.anthopak.pancake-rootless.php
+Icon: https://repo.anthopak.dev/assets/com.anthopak.pancake-rootless/icon.png
+Moderndepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.pancake-rootless.json
+Name: PanCake (Rootless)
+Sileodepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.pancake-rootless.json
+
 Package: com.ash.fixrepairsystempower
 Version: 0.0.1
 Architecture: iphoneos-arm64
@@ -255,6 +275,26 @@ Section: Netskao-Tweaks
 Description: 将低电量弹窗改为横幅提示样式
 Author: Netskao
 Name: LowPowerBannerTips-Rootless
+
+Package: ws.hbang.common
+Version: 2.0
+Architecture: iphoneos-arm64
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 3132
+Depends: firmware (>= 15.0)
+Filename: debs/ws.hbang.common_2.0_iphoneos-arm64.deb
+Size: 198906
+MD5sum: b41babea6af14166166ac70da0d472bb
+SHA1: d7703febee3eaea3b1319d18cff7c7d59a9af2ab
+SHA256: 67338fa3f52951d5cbb900e8582e15dfff5964104bf627643bfe3901cda69652
+Section: Development
+Description: Support library for tweaks
+Tag: role::developer, compatible_min::ios15.0
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: https://chariz.com/get/cephei
+Icon: https://img.chariz.cloud/icon/cephei/icon@3x.png
+Name: Cephei Tweak Support
+Support: https://hashbang.productions/support/
 
 Package: xyz.cypwn.autoscroll15
 Version: 1.0.0

@@ -1,23 +1,3 @@
-Package: com.anthopak.pancake-rootless
-Version: 2.3
-Architecture: iphoneos-arm64
-Maintainer: AnthoPak <anthopakdev@gmail.com>
-Depends: firmware (>=11.0), mobilesubstrate, ws.hbang.common (>= 1.14), com.opa334.altlist, firmware (>= 11.0)
-Filename: debs/com.anthopak.pancake-rootless_2.3_iphoneos-arm64.deb
-Size: 139378
-MD5sum: 7f4aeb3ffdc84893945a14df6b9c99e9
-SHA1: 3d5ba26615ac29d8b288997cbe9ea79248b2e456
-SHA256: 612855d062452167cce3c39c38161ab2b0339c3ecdb685d2e54a6bd4083bacdd
-Section: Tweaks
-Homepage: https://repo.anthopak.dev
-Description: Interactive dismiss gesture on the whole screen in all apps and ability to restore previous page
-Author: AnthoPak <anthopakdev@gmail.com>
-Depiction: https://repo.anthopak.dev/depiction/web/com.anthopak.pancake-rootless.php
-Icon: https://repo.anthopak.dev/assets/com.anthopak.pancake-rootless/icon.png
-Moderndepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.pancake-rootless.json
-Name: PanCake (Rootless)
-Sileodepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.pancake-rootless.json
-
 Package: com.ash.fixrepairsystempower
 Version: 0.0.1
 Architecture: iphoneos-arm64
@@ -186,6 +166,22 @@ Author: MiRO <tweaks_support@miro92.com>
 Depiction: https://chariz.com/get/swipeextenderx
 Icon: https://img.chariz.cloud/icon/swipeextenderx/icon@3x.png
 Name: SwipeExtenderX
+
+Package: com.tsangbaby.pancake-rootless
+Version: 2.3
+Architecture: iphoneos-arm64
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Depends: firmware (>=11.0), mobilesubstrate, ws.hbang.common (>= 1.14), com.opa334.altlist, firmware (>= 11.0)
+Filename: debs/com.tsangbaby.pancake-rootless_2.3_iphoneos-arm64.deb
+Size: 111916
+MD5sum: a08c12f4be721cf5277f4563b3669e4e
+SHA1: 54999d1d5d1481ef09c48671b02cc9b43dd07059
+SHA256: 19ec51c75050ec6ccd609f9fabecfb2fcd43ffcf6a6f77ccd6cc37a73b9de02b
+Section: Tweaks
+Description: 个人汉化自用！Interactive dismiss gesture on the whole screen in all apps and ability to restore previous page
+Author: AnthoPak <anthopakdev@gmail.com>
+Icon: https://repo.anthopak.dev/assets/com.anthopak.pancake-rootless/icon.png
+Name: PanCake (Rootless) 汉化版
 
 Package: dev.traurige.batterybuddy
 Version: 1.3.5

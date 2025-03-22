@@ -1,3 +1,18 @@
+Package: com.Morii.Appswitcher
+Version: 0.1
+Architecture: iphoneos-arm64
+Maintainer: Morii
+Depends: mobilesubstrate
+Filename: debs/com.Morii.Appswitcher_0.1_iphoneos-arm64.deb
+Size: 2464
+MD5sum: 0422187c91d63bdfde89067fa9f7ddc4
+SHA1: 08dbbee0bdfb492c8abf64df5829f49d9662473e
+SHA256: 8f0ebd81db221e1c9543e5979f3bfd7eedf06f77400fcc6fa8a6d019aa2b8664
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Morii
+Name: AppSwitcher Smooth
+
 Package: com.ash.fixrepairsystempower
 Version: 0.0.1
 Architecture: iphoneos-arm64

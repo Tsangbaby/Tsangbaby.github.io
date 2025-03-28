@@ -163,6 +163,40 @@ Depiction: https://michaelmelita1.github.io/depictions/?p=com.ikilledappl3.autof
 Name: AutoFolderClose
 Sileodepiction: https://michaelmelita1.github.io/sileodepictions/com.ikilledappl3.autofolderclose/info.json
 
+Package: com.lclrc.hammerit
+Version: 1.7.1
+Architecture: iphoneos-arm64
+Maintainer: lclrc(SquidForce)
+Installed-Size: 3808
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, com.opa334.libsandy, firmware (>= 14.0)
+Filename: debs/com.lclrc.hammerit_1.7.1_iphoneos-arm64.deb
+Size: 977970
+MD5sum: d70699b93e4c1d86aa21a963427ca3cd
+SHA1: 575137e624ea6d038c4ab4dcc7da9a01ee417fc6
+SHA256: 541973ff6c9099deae095555627ee2d6c04d405e39ffff5e75a9751d22636cc2
+Section: Tweaks
+Description: Control your text or translate as you wish.
+Author: lclrc(SquidForce)
+Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
+Name: Hammer It
+
+Package: com.ps.smoothcursorios13
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 6.0)
+Conflicts: org.thebigboss.smoothcursor
+Filename: debs/com.ps.smoothcursorios13_0.0.1_iphoneos-arm64.deb
+Size: 2984
+MD5sum: 8998472b4706063d7513b62483a4aa59
+SHA1: 7bf3543ddedccc2af54f65ac498ea45317246bf4
+SHA256: a0d6d8dccd184fae9ccde5da0babe9b51af62312a862ad17eccf5d5e0bbe1e5b
+Section: Tweaks
+Description: Office 2013-styled cursor animation.
+Author: PoomSmart
+Name: SmoothCursor (iOS 13+)
+
 Package: com.qiop1379.swipeextenderx
 Version: 1.6.2
 Architecture: iphoneos-arm64

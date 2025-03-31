@@ -1,4 +1,4 @@
-#!/var/jb/usr/bin/bash
+#!/bin/bash
 echo "开始删除"
 rm -r Packages
 rm -r Packages.bz2

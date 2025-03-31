@@ -216,6 +216,22 @@ Depiction: https://chariz.com/get/swipeextenderx
 Icon: https://img.chariz.cloud/icon/swipeextenderx/icon@3x.png
 Name: SwipeExtenderX
 
+Package: com.squidforce.moreactionsforappicon
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: SquidForce
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: debs/com.squidforce.moreactionsforappicon_1.1.0_iphoneos-arm64.deb
+Size: 8286
+MD5sum: b62ea82a38f5399bd394d7c27d96786d
+SHA1: 66bf4e0fe523dd8d99afb918fd934c35a2e5c652
+SHA256: 615a9981c38abc2c741c750f07e6a506bae66e7883fde2c4070508f963066051
+Section: Tweaks
+Description: 添加“应用标识符”，“应用设置”和“在AppStore中查看”动作，并去掉多余动作。More actions for AppIcon's 3D Touch menu, and less duplicated actions.
+Author: SquidForce
+Name: 应用3DTouch菜单
+
 Package: com.tsangbaby.pancake-rootless
 Version: 2.3
 Architecture: iphoneos-arm64

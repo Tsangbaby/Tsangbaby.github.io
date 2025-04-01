@@ -3,6 +3,6 @@ Label: Tsangbaby's Repo
 Description: Tsangbaby's Sileo Repository
 Suite: stable
 Version: 1.0
-Architectures: iphoneos-arm64
+Architectures: iphoneos-arm64,iphoneos-arm64e
 Components: main
 Icon: file://SileoIcon.png

@@ -232,6 +232,94 @@ Description: 添加“应用标识符”，“应用设置”和“在AppStore�
 Author: SquidForce
 Name: 应用3DTouch菜单
 
+Package: com.tomaszpoliszuk.colorpickerwell
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 198
+Depends: firmware (>= 9.0), org.thebigboss.libcolorpicker | firmware (>= 14.0)
+Filename: debs/colorpickerwell_1.0.0_iphoneos-arm64.deb
+Size: 33932
+MD5sum: a2aa9b989fc3cec4e4c107d1d86756ba
+SHA1: e17821fed9407b9e2e2d5028cfd59b20ec21592b
+SHA256: 1d094fb2c23d4e4330d0d334f6fbf4a3eb5e48ca66fe0c9f4138afd61e861a2c
+Section: Development
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=colorpickerwellDp
+Description: Color picker framework for developers
+Tag: role::developer
+Author: Tomasz Poliszuk <tomaszpoliszuk+bigboss@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=colorpickerwellDp
+Dev: tomaszpoliszuk
+Name: Color Picker Well
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.tomaszpoliszuk.colorpickerwell
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 198
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 9.0), org.thebigboss.libcolorpicker | firmware (>= 14.0)
+Filename: debs/com.tomaszpoliszuk.colorpickerwell_1.0.0_iphoneos-arm64e.deb
+Size: 38792
+MD5sum: 308d55a90848156cef483c62f42edf6e
+SHA1: 1c3dd9a7564ad87fdf6aa50b37c848463faf27cc
+SHA256: 6b02719d6ee0a457ac0b5fe9e7307e635f01eca4edbeefc74e300f07cd07f7ca
+Section: Development
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=colorpickerwellDp
+Description: Color picker framework for developers
+Tag: role::developer
+Author: Tomasz Poliszuk <tomaszpoliszuk+bigboss@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=colorpickerwellDp
+Dev: tomaszpoliszuk
+Name: Color Picker Well
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.tomaszpoliszuk.dockcontroller
+Version: 2.1
+Architecture: iphoneos-arm64e
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 409
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader, com.tomaszpoliszuk.colorpickerwell, com.chpwn.iconsupport | firmware (>= 13.0)
+Filename: debs/com.tomaszpoliszuk.dockcontroller_2.1_iphoneos-arm64e.deb
+Size: 73620
+MD5sum: e54087f03a7c2b11897a7c73ed6d6273
+SHA1: 4e404f5690a0fe2add6bcc2fceae7121e7570406
+SHA256: a645d62b09a0289d5c38a1425648e998a9675e7accbdea4cbed9b5492eb6340f
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=dockcontrollerDp
+Description: Control Your Dock
+Tag: purpose::extension
+Author: Tomasz Poliszuk <tomaszpoliszuk+bigboss@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=dockcontrollerDp
+Dev: tomaszpoliszuk
+Icon: file:///Library/PreferenceBundles/DockControllerSettings.bundle/icons/DockController@3x.png
+Name: Dock Controller
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.tomaszpoliszuk.dockcontroller
+Version: 2.1
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 409
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader, com.tomaszpoliszuk.colorpickerwell, com.chpwn.iconsupport | firmware (>= 13.0)
+Filename: debs/dockcontroller_2.1_iphoneos-arm64.deb
+Size: 62440
+MD5sum: 93e441de4b90edd9c404b64f310d93c7
+SHA1: 634096fa7e2b4f161e72a2df7450e7a293538342
+SHA256: ce8896da6cd730b31a1854bb70e5be3a2739baac44655357907b47f1dbb48cf5
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=dockcontrollerDp
+Description: Control Your Dock
+Tag: purpose::extension
+Author: Tomasz Poliszuk <tomaszpoliszuk+bigboss@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=dockcontrollerDp
+Dev: tomaszpoliszuk
+Icon: file:///Library/PreferenceBundles/DockControllerSettings.bundle/icons/DockController@3x.png
+Name: Dock Controller
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.tsangbaby.pancake-rootless
 Version: 2.3
 Architecture: iphoneos-arm64

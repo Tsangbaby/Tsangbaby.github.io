@@ -103,6 +103,40 @@ Description: Displays your touch interactions!
 Author: dvntm
 Name: ShowMyTouches
 
+Package: com.iamdega.uiscroller
+Version: 1.0.5
+Architecture: iphoneos-arm64
+Maintainer: iamdega
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.iamdega.uiscroller_1.0.5_iphoneos-arm64.deb
+Size: 9486
+MD5sum: 3f24168288cf1389ddafe20a33d3a1cd
+SHA1: aeb3930faf336bcedac9e0e99e394b0b8243e256
+SHA256: 897a84b024f3f6dd016a68943c6048e05162089e713453b0907ac98239e0e6fd
+Section: Tweaks
+Description: Rest your fingers, automate scrolling any pages!
+Author: iamdega
+Icon: https://i.postimg.cc/7Z9SYWZS/UIScroller.png
+Name: UIScroller
+
+Package: com.iamdega.uiscroller
+Version: 1.0.5
+Architecture: iphoneos-arm64e
+Maintainer: iamdega
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.iamdega.uiscroller_1.0.5_iphoneos-arm64e.deb
+Size: 9428
+MD5sum: 6c7e877f6c0417742e2c88f91d57c843
+SHA1: f551f53f17bcc95d2cbbb02f414a5d9d7c4b5a55
+SHA256: 4e6eb1c4ddc7b6d4494b28c0e319eefa7e9316c547d42b2324e2e30d9f9bda7b
+Section: Tweaks
+Description: Rest your fingers, automate scrolling any pages!
+Author: iamdega
+Icon: https://i.postimg.cc/7Z9SYWZS/UIScroller.png
+Name: UIScroller
+
 Package: com.iarrays.biolocker.rootless
 Version: 1.15.0-beta-2
 Architecture: iphoneos-arm64

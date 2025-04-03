@@ -13,6 +13,39 @@ Description: An awesome MobileSubstrate tweak!
 Author: Morii
 Name: AppSwitcher Smooth
 
+Package: com.ali7assan.swipeselection.rootless
+Version: 2.0
+Architecture: iphoneos-arm64
+Maintainer: Ali7assan
+Installed-Size: 156
+Depends: mobilesubstrate
+Filename: debs/com.ali7assan.swipeselection.rootless_2.0_iphoneos-arm64.deb
+Size: 22910
+MD5sum: 67563fe8c69ee77609f37d1e446dc370
+SHA1: b2139910f2707a7a6b7d913e6b1e5b1efcfec745
+SHA256: e3d198fd882092635161922dea5cb6a20dfcc42936e8210703dbc55aede76937
+Section: Tweaks
+Description: Swipe along the keyboard to move the cursor and select text.
+Author: Kyle Howells
+Name: SwipeSelection
+
+Package: com.ali7assan.swipeselection.rootless
+Version: 2.0
+Architecture: iphoneos-arm64e
+Maintainer: Ali7assan
+Installed-Size: 156
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/com.ali7assan.swipeselection.rootless_2.0_iphoneos-arm64e.deb
+Size: 18760
+MD5sum: 0801b046b2e1af5a32b6d7225fc7550c
+SHA1: a31a632649adfcb16b7b1ce05993d000adf9546e
+SHA256: 83f2b3831321e9326a3538d9ea89606460bc77de7c6cb89902854930de638b42
+Section: Tweaks
+Description: Swipe along the keyboard to move the cursor and select text.
+Author: Kyle Howells
+Name: SwipeSelection
+
 Package: com.ash.fixrepairsystempower
 Version: 0.0.1
 Architecture: iphoneos-arm64

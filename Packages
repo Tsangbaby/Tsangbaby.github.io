@@ -247,6 +247,21 @@ Author: lclrc(SquidForce)
 Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
 Name: Hammer It
 
+Package: com.lclrc.recordanywhere
+Version: 1.1.0-1
+Architecture: iphoneos-arm64e
+Maintainer: Muirey03 & lclrc
+Depends: mobilesubstrate
+Filename: debs/com.lclrc.recordanywhere_1.1.0-1_iphoneos-arm64e.deb
+Size: 4180
+MD5sum: 9bede24b0e7ea224fc81cdb90357bc8d
+SHA1: 72a51deac04c8fca8e5316378c8d8ed6b5b737b7
+SHA256: 5001d22310d2595da6bda5d94333483408697dd5b659755c27c1fd47bb1f335d
+Section: Tweaks
+Description: enable screen recorder always work even on lock screen
+Author: Muirey03 & lclrc
+Name: RecordAnywhere
+
 Package: com.ps.smoothcursorios13
 Version: 0.0.1
 Architecture: iphoneos-arm64

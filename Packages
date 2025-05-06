@@ -456,6 +456,49 @@ Author: AnthoPak <anthopakdev@gmail.com>
 Icon: https://repo.anthopak.dev/assets/com.anthopak.pancake-rootless/icon.png
 Name: PanCake (Rootless) 汉化版
 
+Package: com.xybp888.noapplemobilerepair
+Version: 0.0.1-103
+Architecture: iphoneos-arm64
+Maintainer: xybp888
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.xybp888.noapplemobilerepair_0.0.1-103_iphoneos-arm64.deb
+Size: 11244
+MD5sum: de083109758283731a20a52d437f4803
+SHA1: 39f7296d3f128fa8a541ed5ca7dc25968aa5e468
+SHA256: 8c613dc1a934db0b5a43dd502c5b060ef8258d4be86c097dc31d80d439248937
+Section: Tweaks
+Description: No Apple MobileRepair
+ (禁止在设置页面显示维修记录,例如更换电池的提醒,屏幕等)
+ 本插件免费使用,安装即可生效,无设置!
+ 本插件在 16.5 多巴胺越狱环境下测试通过,其他系统自行测试
+ 1.更换第三方电池后，开启显示正常电池健康值。
+ 2.屏蔽关于本机显示未知部件记录。
+ 3.屏蔽设置显示红1以及电池更新提醒信息。
+ 4.屏蔽设置系统OTA 升级显示红1提醒信息
+Author: xybp888
+Depiction: https://apt.htv123.com/view/159
+Name: No Apple MobileRepair
+Sileodepiction: https://apt.htv123.com/sileo/159
+
+Package: com.xybp888.noapplemobilerepair
+Version: 0.0.1-104
+Architecture: iphoneos-arm64e
+Maintainer: xybp888
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.xybp888.noapplemobilerepair_0.0.1-104_iphoneos-arm64e.deb
+Size: 11024
+MD5sum: ebd665199cdf76ddebe0092fe2e6b300
+SHA1: c32678f2f03a3b91a74dab9f5813cb99c01b6e25
+SHA256: e626d32305800f570b2c693d354fc6e8db605f2509c91050ef7ad566b138199c
+Section: Tweaks
+Description: No Apple MobileRepair
+Author: xybp888
+Depiction: https://apt.htv123.com/view/185
+Name: No Apple MobileRepair(RootHide)
+Sileodepiction: https://apt.htv123.com/sileo/185
+
 Package: dev.traurige.batterybuddy
 Version: 1.3.5
 Architecture: iphoneos-arm64

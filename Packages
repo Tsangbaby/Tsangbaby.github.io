@@ -476,6 +476,23 @@ Author: AnthoPak <anthopakdev@gmail.com>
 Icon: https://repo.anthopak.dev/assets/com.anthopak.pancake-rootless/icon.png
 Name: PanCake (Rootless) 汉化版
 
+Package: com.wangdonghua.backgroundretainer
+Version: 0.0.1-7
+Architecture: iphoneos-arm64
+Maintainer: Your Name
+Installed-Size: 472
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: com.dopamine.swapforcer
+Filename: debs/com.wangdonghua.backgroundretainer_0.0.1-7_iphoneos-arm64.deb
+Size: 77836
+MD5sum: 74fbc21e8b65c4d9bfd06c222f4ad000
+SHA1: dd64d9caa7b6549f824336be28360c6f9f925854
+SHA256: d6b13a7e8c63e6f7f8a6dec7f4c71fcd9708209839337a69daa23523de8d5f49
+Section: Tweaks
+Description: 基于iOS墓碑机制的后台应用留存增强插件。
+Author: Your Name
+Name: BackgroundRetainer
+
 Package: com.xybp888.noapplemobilerepair
 Version: 0.0.1-103
 Architecture: iphoneos-arm64

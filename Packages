@@ -136,6 +136,26 @@ Description: Displays your touch interactions!
 Author: dvntm
 Name: ShowMyTouches
 
+Package: com.huayuarc.swiftflowjs
+Version: 0.0.3
+Architecture: iphoneos-arm64e
+Maintainer: Huayuarc
+Installed-Size: 88
+Depends: mobilesubstrate
+Conflicts: com.huayuarc.thermalpatcher.rootless
+Filename: debs/com.huayuarc.swiftflowjs_0.0.3_iphoneos-arm64e.deb
+Size: 3054
+MD5sum: fc05f76a4dd9c5823743d885d49a12e4
+SHA1: b0fa77111a87977f6c633dc1cc8b81a6a985efa6
+SHA256: ab35e2a3ea47a3b6bd0d786ea6fa518c44882471c64ed0657e2ce83d04ee9110
+Section: Tweaks
+Description: ios系统级流畅度优化(极速：0.001)
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+Icon: https://huayuarc.github.io/images/ThermalPatcher.png
+Name: SwiftFlow Pro(Roothide)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+
 Package: com.iamdega.uiscroller
 Version: 1.0.5
 Architecture: iphoneos-arm64

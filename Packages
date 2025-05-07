@@ -484,10 +484,10 @@ Installed-Size: 472
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
 Conflicts: com.dopamine.swapforcer
 Filename: debs/com.wangdonghua.backgroundretainer_0.0.1-7_iphoneos-arm64.deb
-Size: 77836
-MD5sum: 74fbc21e8b65c4d9bfd06c222f4ad000
-SHA1: dd64d9caa7b6549f824336be28360c6f9f925854
-SHA256: d6b13a7e8c63e6f7f8a6dec7f4c71fcd9708209839337a69daa23523de8d5f49
+Size: 77828
+MD5sum: 4d79752429a290db43c739fe4592faea
+SHA1: d76d7385551b1c0a0410b2a0962ac953f0a0c5b1
+SHA256: 73d5dbc15e0064b89dfb9e05ad51bc98c7f74113ed983e5a4db228892f03079d
 Section: Tweaks
 Description: 基于iOS墓碑机制的后台应用留存增强插件。
 Author: Your Name

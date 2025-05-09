@@ -460,6 +460,22 @@ Icon: file:///Library/PreferenceBundles/DockControllerSettings.bundle/icons/Dock
 Name: Dock Controller
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.tsangbaby.lecard.wuyu
+Version: 991.1.10
+Architecture: iphoneos-arm64
+Maintainer: Crassna
+Installed-Size: 1852
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 15.0)
+Filename: debs/com.tsangbaby.lecard.wuyu_991.1.10_iphoneos-arm64.deb
+Size: 385312
+MD5sum: 82ad4c0712b6482e46db5a6fe70011ee
+SHA1: 310df8629492bde1510803dfff188262a65ae274
+SHA256: 8595e8676ee6458cef3ca9b0381dc2a000513b6cc91899242d9847de883bf4c4
+Section: Tweaks
+Description: AppLecard默认值恢复工具,无限安全模式安装恢复。
+Author: Crassna
+Name: AppLecard Special
+
 Package: com.tsangbaby.pancake-rootless
 Version: 2.3
 Architecture: iphoneos-arm64

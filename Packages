@@ -120,6 +120,22 @@ Icon: file:///Library/PreferenceBundles/Ermete.bundle/icon@2x.png
 Name: Ermete
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.dvntm.lsnoswipe
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: dvntm
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0)
+Filename: debs/com.dvntm.lsnoswipe_0.0.1_iphoneos-arm64.deb
+Size: 3940
+MD5sum: 5ea6534aaaea37ebd686c6a8114ef4ba
+SHA1: 256a62a910c33017b8179d71901256673ed5ba60
+SHA256: cfca3c6eb79103e248a278d5cf839ddebbff5923de17e7126af501408221f820
+Section: Tweaks
+Description: Disables swipe to open cam on the lock screen
+Author: dvntm
+Name: LSNoSwipe
+
 Package: com.dvntm.showmytouches
 Version: 1.1.2
 Architecture: iphoneos-arm64

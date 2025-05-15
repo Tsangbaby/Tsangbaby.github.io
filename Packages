@@ -476,6 +476,20 @@ Icon: file:///Library/PreferenceBundles/DockControllerSettings.bundle/icons/Dock
 Name: Dock Controller
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.tsangbaby.autoscroll
+Version: 1.1
+Architecture: iphoneos-arm64e
+Maintainer: Tsangbaby
+Depends: mobilesubstrate
+Filename: debs/com.tsangbaby.autoscroll_1.1_iphoneos-arm64e.deb
+Size: 4096
+MD5sum: fadd393f73253ff3e505e3ae829205fe
+SHA1: d3a4461204c7c583247ee6875a1a7cee35cfaf64
+SHA256: 4e5d415fa5afcadff8a36350617476522e78331461d844fbe11e9c55a79e9655
+Description: Prevent finger fatigue. It will automatically continue when you slide an option or view, no need to keep touching with your finger, and the speed is determined by your strength.
+Author: pxcex
+Name: AutoScroll-roothide
+
 Package: com.tsangbaby.lecard.wuyu
 Version: 991.1.10
 Architecture: iphoneos-arm64

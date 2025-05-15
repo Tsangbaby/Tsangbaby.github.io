@@ -483,12 +483,12 @@ Maintainer: Tsangbaby
 Depends: mobilesubstrate
 Filename: debs/com.tsangbaby.autoscroll_1.1_iphoneos-arm64e.deb
 Size: 4096
-MD5sum: fadd393f73253ff3e505e3ae829205fe
-SHA1: d3a4461204c7c583247ee6875a1a7cee35cfaf64
-SHA256: 4e5d415fa5afcadff8a36350617476522e78331461d844fbe11e9c55a79e9655
+MD5sum: bd9d1c8db2d6521dbe383fabf9499b7e
+SHA1: 425655e61a32048bd8c5ad2e2bbfea84262711f9
+SHA256: a0324962cb1153f84ce13253122dc585cfbe7dc6cfd5708640c177a6c5c1adf8
 Description: Prevent finger fatigue. It will automatically continue when you slide an option or view, no need to keep touching with your finger, and the speed is determined by your strength.
 Author: pxcex
-Name: AutoScroll-roothide
+Name: AutoScroll-RootHide
 
 Package: com.tsangbaby.lecard.wuyu
 Version: 991.1.10

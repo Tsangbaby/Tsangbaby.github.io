@@ -120,6 +120,38 @@ Icon: file:///Library/PreferenceBundles/Ermete.bundle/icon@2x.png
 Name: Ermete
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.dvntm.fbo
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: dvntm
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.dvntm.fbo_0.0.1_iphoneos-arm64.deb
+Size: 3174
+MD5sum: bc4717d8d9e580b7cdc2e2da3897112d
+SHA1: a73a9e979dc61d5a94094ecea083e95336f2bb3c
+SHA256: eeebc46d62a059e0a2eacef4411d692f04d0bd3ccaa490bfc70dea4a0cd23b79
+Section: Tweaks
+Description: Displays only the Browse tab and hides the tab bar
+Author: dvntm
+Name: FilesBrowsingOnly
+
+Package: com.dvntm.fbo
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: dvntm
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.dvntm.fbo_0.0.1_iphoneos-arm64e.deb
+Size: 3110
+MD5sum: 4dc4f7ca521eebbc9f8b0dac36c3f3fa
+SHA1: dadeacc7205397deb032cbdee706ffcea0a65811
+SHA256: c3d56859f35f784a64999c1459e34560a79eaa0b80d94dd530b966616e59108c
+Section: Tweaks
+Description: Displays only the Browse tab and hides the tab bar
+Author: dvntm
+Name: FilesBrowsingOnly
+
 Package: com.dvntm.lsnoswipe
 Version: 0.0.1
 Architecture: iphoneos-arm64

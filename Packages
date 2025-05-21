@@ -120,6 +120,22 @@ Icon: file:///Library/PreferenceBundles/Ermete.bundle/icon@2x.png
 Name: Ermete
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.developlab.peektimeline
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: developlab
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
+Filename: debs/com.developlab.peektimeline_1.0_iphoneos-arm64.deb
+Size: 9442
+MD5sum: c8c9c75ccd222065e5e520f43907f7eb
+SHA1: 9f46e2dcb11a2a610863500ea96e84bd2c45ad7d
+SHA256: 481c553a57a95be974a5c2dab68c6c80a63ce3b780539123fc67a6b70973e2af
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: developlab
+Name: PeekTimeLine
+
 Package: com.dvntm.fbo
 Version: 0.0.1
 Architecture: iphoneos-arm64

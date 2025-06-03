@@ -1,3 +1,43 @@
+Package: cn.zqbb.stopautolaunchapps
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: zqbb
+Installed-Size: 216
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0)
+Conflicts: zp.stopautolaunchapps
+Filename: debs/cn.zqbb.stopautolaunchapps_1.1_iphoneos-arm64.deb
+Size: 30450
+MD5sum: 283685c116141193860286828aa57f8d
+SHA1: d3be3c89b619f3cadd58e57ffcdaa5206b58179f
+SHA256: a1249978de9ec62675080668ff34aa863ae5e74dfd729836c5386ffe8cd59ea1
+Section: Tweaks
+Description: 禁用ios热启动神经网络引擎,别在后台热加载app咯!
+ - 优点:节约内存,少杀后台.
+ - 玄学:减少重启概率
+Author: zqbb
+Name: Hello 3Q
+Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.stopautolaunchapps
+
+Package: cn.zqbb.stopautolaunchapps
+Version: 1.1
+Architecture: iphoneos-arm64e
+Maintainer: zqbb
+Installed-Size: 232
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0)
+Conflicts: zp.stopautolaunchapps
+Filename: debs/cn.zqbb.stopautolaunchapps_1.1_iphoneos-arm64e.deb
+Size: 26504
+MD5sum: 39e5898a054ffe614005486a04f93f54
+SHA1: 6ed877f0c5330350c74fdf91cd192e73dc9b4531
+SHA256: 6b9729596683758e067f6ea41cc24893d57018cc944d92d0b27e94085e13fbbd
+Section: Tweaks
+Description: 禁用ios热启动神经网络引擎,别在后台热加载app咯!
+ - 优点:节约内存,少杀后台.
+ - 玄学:减少重启概率
+Author: zqbb
+Name: Hello 3Q
+Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.stopautolaunchapps
+
 Package: com.Morii.Appswitcher
 Version: 0.1
 Architecture: iphoneos-arm64

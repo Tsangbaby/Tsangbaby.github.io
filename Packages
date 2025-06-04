@@ -249,16 +249,16 @@ Depends: firmware (>= 4.0), findutils, apt | apt7
 Conflicts: org.altervista.exilecom.icleaner
 Replaces: org.altervista.exilecom.icleaner
 Filename: debs/com.exile90.icleanerpro_7.10.0_iphoneos-arm64e.deb
-Size: 968992
-MD5sum: 7151a8470a90f98444a00382b036dd0a
-SHA1: 67c2669675716bfb67b066416b3bffa1cae067fb
-SHA256: c0e22562ee3c12218e5a61da719e4340347d6c1b24b7aa075a933487e6443963
+Size: 969248
+MD5sum: f7f3fb2c7740cf31428e467386ae6602
+SHA1: 3a1683f2b6d34b37e79f9a7916887d04d7792bcc
+SHA256: 508ff17ba523a9299f7220c3cec5af8613053b60afb778cc5c8fd16bd4f94e02
 Section: Utilities
 Homepage: http://ib-soft.net/icleaner
 Description: The first real iOS system cleanup and management utility
 Author: Ivano Bilenchi <support@ib-soft.net>
 Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
-Icon: file:///Applications/iCleaner.app/Icon.png
+Icon: https://raw.githubusercontent.com/BarabaVip/Baraba/refs/heads/main/iCleaner.png
 Name: iCleaner Pro (Roothide)
 
 Package: com.huayuarc.swiftflowjs

@@ -424,24 +424,6 @@ Author: opa334 <opa334@protonmail.com>
 Depiction: https://opa334.github.io/depic/Choicy/index.html
 Name: Choicy
 
-Package: com.ps.polyfills
-Version: 1.7.1
-Architecture: iphoneos-arm64
-Maintainer: PoomSmart
-Installed-Size: 396
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0)
-Filename: debs/com.ps.polyfills_1.7.1_iphoneos-arm64.deb
-Size: 34524
-MD5sum: 374a300cb4f6adc140f8fc1e130a01ee
-SHA1: a002d910ec5139e5cda2cd40ae771606adaebc0f
-SHA256: 3a5775bb15952e046045c97b5aeccf58bdcc7dea435407b91e873da0b325e76b
-Section: Tweaks
-Description: Injects JavaScript Polyfills to iOS web views.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/polyfills.html
-Name: Polyfills
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/polyfills.json
-
 Package: com.ps.smoothcursorios13
 Version: 0.0.1
 Architecture: iphoneos-arm64

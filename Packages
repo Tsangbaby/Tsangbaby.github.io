@@ -800,24 +800,6 @@ Icon: https://img.chariz.cloud/icon/cephei/icon@3x.png
 Name: Cephei Tweak Support
 Support: https://hashbang.productions/support/
 
-Package: xyz.cypwn.autoscroll15
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Depends: mobilesubstrate
-Filename: debs/xyz.cypwn.autoscroll15_1.0.0_iphoneos-arm64.deb
-Size: 8178
-MD5sum: 8c3b01b6b28a5e085a678774b499ad28
-SHA1: 2015819f31df71e938bf09b0c1a10d503df03dbf
-SHA256: de0b3040784f695513cb7723e342849ef27de5f3993b09096ab4a1126d53b502
-Section: Tweaks
-Description: Prevent finger fatigue. No options to configure.
-Author: pxcex
-Depiction: https://repo.cypwn.xyz/depiction/1278
-Icon: https://repo.cypwn.xyz/assets/repo/Featured/autoscroll.png
-Name: AutoScroll iOS15
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1278
-
 Package: zp.cocoatop64.unject
 Version: 3.1.1
 Architecture: iphoneos-arm64

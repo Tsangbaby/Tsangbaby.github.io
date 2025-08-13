@@ -176,6 +176,24 @@ Description: An awesome MobileSubstrate tweak!
 Author: developlab
 Name: PeekTimeLine
 
+Package: com.dvntm.cc18
+Version: 0.0.3
+Architecture: iphoneos-arm64e
+Maintainer: dvntm
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000), firmware (< 18.0)
+Filename: debs/com.dvntm.cc18_0.0.3_iphoneos-arm64e.deb
+Size: 4414
+MD5sum: aa6ca7d2ae575b7c73e76606faf1d7d1
+SHA1: 62897f278010f963fb6c43985650cf6c86e7f946
+SHA256: ab021d689f4874c2c64a5586a57a7f3cb07b322cbd61d7fbd144acd15ae8aa61
+Section: Tweaks
+Description: Round CC modules replication, like in iOS 18
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/CC18/refs/heads/main/Sileo/icon.png
+Name: CC18
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/CC18/main/Sileo/depiction.json
+
 Package: com.dvntm.fbo
 Version: 0.0.1
 Architecture: iphoneos-arm64

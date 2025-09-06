@@ -474,6 +474,24 @@ Author: opa334 <opa334@protonmail.com>
 Depiction: https://opa334.github.io/depic/Choicy/index.html
 Name: Choicy
 
+Package: com.ps.githubweblegacycompat
+Version: 2.3.17
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 3128
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), firmware (<< 16.4), com.ps.polyfills (>= 2.12.3)
+Filename: debs/com.ps.githubweblegacycompat_2.3.17_iphoneos-arm64.deb
+Size: 492192
+MD5sum: 40bd13a82b525e99b7ad6df0f937a67e
+SHA1: 2750c4feec315791f484f76a005b137aef79eb89
+SHA256: 5f1f4ccfbed9f0d85a0087c682b8e8887fd956dc7e8f574179f5938b11b08892
+Section: Tweaks
+Description: Makes GitHub website more accessible on iOS < 16.4
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/githubweblegacycompat.html
+Name: GitHubWebLegacyCompat
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/githubweblegacycompat.json
+
 Package: com.ps.smoothcursorios13
 Version: 0.0.1
 Architecture: iphoneos-arm64

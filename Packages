@@ -375,6 +375,22 @@ Author: IArrays <support@iarrays.com>
 Name: libiarrays (Rootless)
 Sponsor: IArrays
 
+Package: com.icraze.swipeselection
+Version: 2.0
+Architecture: iphoneos-arm64
+Maintainer: iCraze
+Installed-Size: 156
+Depends: mobilesubstrate
+Filename: debs/com.icraze.swipeselection_2.0_iphoneos-arm64.deb
+Size: 14200
+MD5sum: 590ba52bacebd881e2f2fa69ab1a2f26
+SHA1: a489496646bd67f2a9a6eee2fbef5ce4c97a6bf2
+SHA256: a27263299acee94a506b4447f789dee652a0e03fe2e76f686ece619910354e57
+Section: Tweaks
+Description: Swipe along the keyboard to move the cursor and select text.
+Author: Kyle Howells
+Name: SwipeSelection
+
 Package: com.ikilledappl3.autofolderclose-rootless
 Version: 1.1
 Architecture: iphoneos-arm64

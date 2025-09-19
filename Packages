@@ -137,6 +137,25 @@ Description: Remove Keyboard Settings and Hand Bias Switch.
 Author: Brend0n <brendonjkding@126.com>
 Name: NoKeyboardSettings
 
+Package: com.cameronkatri.quickactions
+Version: 1.0.0-2
+Architecture: iphoneos-arm64
+Maintainer: Cameron Katri <me+quickactions@cameronkatri.com>
+Installed-Size: 458
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/com.cameronkatri.quickactions_1.0.0-2_iphoneos-arm64.deb
+Size: 40030
+MD5sum: 2307cd87cff89a9028e9326fd9791709
+SHA1: 2b7788c4c9d556344b033c48a25dce42aa9c3a35
+SHA256: 4851ab2db892b4f37fa5dc960e0cbb0e7372f17d8857e9b40955ef81335ac971
+Section: Tweaks
+Description: Quickly launch apps from the lockscreen
+Tag: compatible_min::ios14.0
+Author: Cameron Katri <me+quickactions@cameronkatri.com>
+Depiction: https://chariz.com/get/quickactions
+Icon: https://img.chariz.cloud/icon/quickactions/icon@3x.png
+Name: QuickActions
+
 Package: com.cydiageek.ermete
 Version: 1.0.5
 Architecture: iphoneos-arm64

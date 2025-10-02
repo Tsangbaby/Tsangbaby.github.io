@@ -195,6 +195,22 @@ Description: An awesome MobileSubstrate tweak!
 Author: developlab
 Name: PeekTimeLine
 
+Package: com.dumpapp.wechat-rootless
+Version: 2.2.0
+Architecture: iphoneos-arm64
+Maintainer: WeChat
+Installed-Size: 14436
+Depends: mobilesubstrate, firmware (>= 12.0)
+Filename: debs/锤子助手_2.2.0_无根.deb
+Size: 5622432
+MD5sum: 2f9b87c58c6f96dfe8c9f40093aecf08
+SHA1: 5b4c603497a7fbad7f26a1a80805b7d435d93358
+SHA256: d1a792d4430cee01dd0c2a9525e2392cec802d6174cbf5667d653136ad2f393f
+Section: Tweaks
+Description: 锤子助手插件
+Author: DumpApp
+Name: 锤子助手-Rootless
+
 Package: com.dvntm.cc18
 Version: 0.0.3
 Architecture: iphoneos-arm64e

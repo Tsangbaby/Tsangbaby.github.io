@@ -542,16 +542,16 @@ Depiction: https://opa334.github.io/depic/Choicy/index.html
 Name: Choicy
 
 Package: com.ps.githubweblegacycompat
-Version: 2.3.21
+Version: 2.3.22
 Architecture: iphoneos-arm64
 Maintainer: PoomSmart
-Installed-Size: 3024
+Installed-Size: 3240
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), firmware (<< 16.4), com.ps.polyfills (>= 2.12.3)
-Filename: debs/com.ps.githubweblegacycompat_2.3.21_iphoneos-arm64.deb
-Size: 473204
-MD5sum: 55d2ad8b9feaefccc900a9c60ef2e72c
-SHA1: d0114080cda9339aa76d34876cb0a560a76f87af
-SHA256: caad6f0e14d9648acd124e44d9c24db448679ec5fdcd33708096355ec490f08e
+Filename: debs/com.ps.githubweblegacycompat_2.3.22_iphoneos-arm64.deb
+Size: 524442
+MD5sum: 611afc376d77aece7ad2dd351f6cd26e
+SHA1: 7f0ad30257e5d646fe56f070197af9c78d1f0914
+SHA256: 60d886fd4da7be8e879f36d91637940f3235c54f41041fd71b1981b07bd7644d
 Section: Tweaks
 Description: Makes GitHub website more accessible on iOS < 16.4
 Author: PoomSmart
@@ -719,6 +719,30 @@ Dev: tomaszpoliszuk
 Icon: file:///Library/PreferenceBundles/DockControllerSettings.bundle/icons/DockController@3x.png
 Name: Dock Controller
 Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.torrekie.battman
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: Torrekie <me@torrekie.dev>
+Depends: firmware (>= 12.0), cy+model.iphone (>= 10.1) | cy+model.ipad (>= 8.1), libintl8 | libintl
+Filename: debs/com.torrekie.battman_1.0_iphoneos-arm64.deb
+Size: 3016228
+MD5sum: c968fb8538dc1c5a104be6528738efc0
+SHA1: aeafdf2b7210a70c769640a163a4d4b415c23e6b
+SHA256: 76cfdaf4aabd16899ba33cccd444293ce57bb5adaebc7a35d2455ab19e62bc97
+Section: Applications
+Homepage: https://github.com/Torrekie/Battman
+Description: Battman the Battery Manager
+ Battman is a lightweight app that provides deep
+ real-time battery insights. From charging
+ current, voltage, temperature, to
+ Not-Charging-Reason, adapter information,
+ Smart Charging, Low Power Mode and accessory
+ detection.
+ .
+ It requires A11+ devices as for now.
+Author: Torrekie <me@torrekie.dev>
+Name: Battman
 
 Package: com.tsangbaby.autoscroll
 Version: 1.1

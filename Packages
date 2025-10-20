@@ -790,6 +790,40 @@ Author: AnthoPak <anthopakdev@gmail.com>
 Icon: https://repo.anthopak.dev/assets/com.anthopak.pancake-rootless/icon.png
 Name: PanCake (Rootless) 汉化版
 
+Package: com.vita.wchook
+Version: 1.0-1
+Architecture: iphoneos-arm64
+Maintainer: vita
+Installed-Size: 240
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.vita.wchook_1.0-1_iphoneos-arm64.deb
+Size: 27074
+MD5sum: 28bb1f838dd4721665670ca2ccf343ea
+SHA1: 092e9e4601b44362adff810a44794dc122c4ced7
+SHA256: 50382970bf6a9d0d19211953a70cfb2a60c2acfc91e916dd676b1ad19ef2059f
+Section: Tweaks
+Priority: optional
+Description: 微信功能扩展（左滑快速引用）
+Author: vita
+Name: WCHook
+
+Package: com.vita.wchook
+Version: 1.0-1
+Architecture: iphoneos-arm64e
+Maintainer: vita
+Installed-Size: 240
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.vita.wchook_1.0-1_iphoneos-arm64e.deb
+Size: 27018
+MD5sum: b8acb594fd03adc58b9704b6510eea64
+SHA1: 9c599d9c7fbee3a0581eeae7651559eeafc951d0
+SHA256: ba69207870b5b3c056c712ac77d5d80615c58a0fd27f75b0fbfbab0c35879566
+Section: Tweaks
+Priority: optional
+Description: 微信功能扩展（左滑快速引用）
+Author: vita
+Name: WCHook
+
 Package: com.wangdonghua.backgroundretainer
 Version: 0.0.1-7
 Architecture: iphoneos-arm64

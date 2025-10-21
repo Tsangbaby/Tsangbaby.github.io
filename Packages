@@ -720,30 +720,6 @@ Icon: file:///Library/PreferenceBundles/DockControllerSettings.bundle/icons/Dock
 Name: Dock Controller
 Sponsor: thebigboss.org <http://thebigboss.org>
 
-Package: com.torrekie.battman
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: Torrekie <me@torrekie.dev>
-Depends: firmware (>= 12.0), cy+model.iphone (>= 10.1) | cy+model.ipad (>= 8.1), libintl8 | libintl
-Filename: debs/com.torrekie.battman_1.0_iphoneos-arm64.deb
-Size: 3016228
-MD5sum: c968fb8538dc1c5a104be6528738efc0
-SHA1: aeafdf2b7210a70c769640a163a4d4b415c23e6b
-SHA256: 76cfdaf4aabd16899ba33cccd444293ce57bb5adaebc7a35d2455ab19e62bc97
-Section: Applications
-Homepage: https://github.com/Torrekie/Battman
-Description: Battman the Battery Manager
- Battman is a lightweight app that provides deep
- real-time battery insights. From charging
- current, voltage, temperature, to
- Not-Charging-Reason, adapter information,
- Smart Charging, Low Power Mode and accessory
- detection.
- .
- It requires A11+ devices as for now.
-Author: Torrekie <me@torrekie.dev>
-Name: Battman
-
 Package: com.tsangbaby.autoscroll
 Version: 1.1
 Architecture: iphoneos-arm64e
@@ -797,10 +773,10 @@ Maintainer: vita
 Installed-Size: 240
 Depends: firmware (>= 5.0), mobilesubstrate
 Filename: debs/com.vita.wchook_1.0-2_iphoneos-arm64.deb
-Size: 29548
-MD5sum: 65849fadec833e22304ada3b7177363a
-SHA1: 963799c3327feff8c33ef175abe6fe737331bbc3
-SHA256: 5eda9ba062495a2a33aeb63e2e7fc82a1390df32c2e1934a7ca311a3b1c5b636
+Size: 31814
+MD5sum: b6af340533f4795baeee78fc4dfae4e9
+SHA1: d5ec00c92a79ab23d7487ea3e37157f728458829
+SHA256: fc89299668f6e5dc4e2468c85d5f3b1202697b8dcf5b6bcfe9aa163892305dfd
 Section: Tweaks
 Priority: optional
 Description: 微信功能扩展
@@ -814,10 +790,10 @@ Maintainer: vita
 Installed-Size: 240
 Depends: firmware (>= 5.0), mobilesubstrate
 Filename: debs/com.vita.wchook_1.0-2_iphoneos-arm64e.deb
-Size: 29484
-MD5sum: e87956006563829f854e1e9f2f2a5ea9
-SHA1: 51a01f46721ba48372c4733a97895060451ff6fd
-SHA256: 8f165ce4c9fceb41f68b2f8e30bb575697edfab32c76700277dd6bf047756ca1
+Size: 31748
+MD5sum: 9265dac7f658a26fef4a5d7e800092b6
+SHA1: e940ea51e6ee0312ce7758119c9bbc768f9c828c
+SHA256: b8c2c2ec75b9e91e2edc7c2f3dd70ed5af6877661f05e0b07e71b029bdc10b57
 Section: Tweaks
 Priority: optional
 Description: 微信功能扩展

@@ -541,6 +541,31 @@ Author: opa334 <opa334@protonmail.com>
 Depiction: https://opa334.github.io/depic/Choicy/index.html
 Name: Choicy
 
+Package: com.pantsthief.flexing
+Version: 1.5.2
+Architecture: iphoneos-arm64e
+Maintainer: Tanner Bennett <thepantsthief@me.com>
+Installed-Size: 284
+Pre-Depends: firmware (>= 8.0)
+Depends: libflex, mobilesubstrate
+Conflicts: com.dgh0st.flexall, gg.gh0stbyte.flexivator, com.shmoopillic.flexible, applebetas.ios.tweak.devtools.flexgesture, com.creaturecoding.flexer, com.lacertosusrepo.flex4me, me.nepeta.flexxx, com.ipadkid.flexit, com.qiop1379.flexbar, com.leftyfl1p.reflex
+Filename: debs/com.pantsthief.flexing_1.5.2_iphoneos-arm64e.deb
+Size: 19698
+MD5sum: 2dfa9ec9e8a64fd166200e29b630bf14
+SHA1: 78c0ca739f59488f731fc45592888db4e5fa4e28
+SHA256: 9368f575e0b7bd730040d92ff0bff26b6fcffa6f562540260f9a4235fd32a693
+Section: Tweaks
+Description: Open FLEX anywhere!  aka FLEXTool/FLEXList
+  .
+  Usage:
+  - long press status bar on home screen
+  - three-finger long press on app views
+  .
+Author: Tanner Bennett <thepantsthief@me.com>
+Depiction: https://nscake.github.io/package.html?package=com.pantsthief.flexing
+Name: FLEXing
+Sileodepiction-Unused: https://nscake.github.io/depictions/com.pantsthief.flexing.sileo.json
+
 Package: com.ps.githubweblegacycompat
 Version: 2.3.22
 Architecture: iphoneos-arm64
@@ -897,6 +922,24 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=doublecutD
 Dev: rplus
 Icon: file:///Library/PreferenceBundles/DoubleCutSettings.bundle/DoubleCut@2x.png
 Name: DoubleCut
+
+Package: libflex
+Version: 4.7.1
+Architecture: iphoneos-arm64e
+Maintainer: Tanner Bennett <tannerbennett@me.com>
+Installed-Size: 5412
+Pre-Depends: firmware (>= 9.0)
+Filename: debs/libflex_4.7.1_iphoneos-arm64e.deb
+Size: 1317062
+MD5sum: 09f9fe256bcf4174c642a471d405ccd5
+SHA1: 8f0839c96f28e26ceca4a586d8636d1d89f106a2
+SHA256: b9d87d7644e7920450bbba8c4b397b139aaf41bdbfbae6365ee1fc88c580f717
+Section: Tweaks
+Description: A library for Flipboard Explorer.
+Author: Tanner Bennett <tannerbennett@me.com>
+Depiction: https://nscake.github.io/package.html?package=libflex
+Name: libFLEX
+Sileodepiction: https://nscake.github.io/depictions/libflex.sileo.json
 
 Package: netskao.BlockAppsCreateAlbum-rootless
 Version: 1.1.2

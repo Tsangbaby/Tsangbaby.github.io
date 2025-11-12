@@ -86,22 +86,6 @@ Description: Swipe along the keyboard to move the cursor and select text.
 Author: Kyle Howells
 Name: SwipeSelection
 
-Package: com.ash.fixrepairsystempower
-Version: 0.0.1
-Architecture: iphoneos-arm64
-Maintainer: ash
-Depends: mobilesubstrate
-Filename: debs/com.ash.fixrepairsystempower_0.0.1_iphoneos-arm64.deb
-Size: 4588
-MD5sum: a36a2197ba3f2042f256a7e273f5a371
-SHA1: 1403632c33424af118174f2c860bd51b97349991
-SHA256: 892ce07a5bfdbaa2d259c78054f1fa78fda2680c40007cb7d22f8f4f4e957334
-Section: Tweaks
-Description: CPU Battery Saver Battery Connected State Not Change Remove Monitored Regions Don't Use Background Location Services No Update WiFi State Remove Pretending To Search In Telephony Manager No Has Results From Wifi Scan Disable Wifi Charger Queue Has Cellular Telephony Private Location Apps Not Using Location With Details Remove Animations Remove Animations Fake Service If Unnecessary Don't Scan For Updates Remove Check Time Zone Time Zone (Fixed) AdBlock - Block Some iAds No Automatic Sync Hidden iAds Device
-Author: ash
-Name: Fix Repair System Power
-Sponsor: ash
-
 Package: com.b4db1r3.ocd
 Version: 4.0
 Architecture: iphoneos-arm64
@@ -824,23 +808,6 @@ Priority: optional
 Description: 微信功能扩展
 Author: vita
 Name: WCHook
-
-Package: com.wangdonghua.backgroundretainer
-Version: 0.0.1-7
-Architecture: iphoneos-arm64
-Maintainer: Your Name
-Installed-Size: 472
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
-Conflicts: com.dopamine.swapforcer
-Filename: debs/com.wangdonghua.backgroundretainer_0.0.1-7_iphoneos-arm64.deb
-Size: 77828
-MD5sum: 4d79752429a290db43c739fe4592faea
-SHA1: d76d7385551b1c0a0410b2a0962ac953f0a0c5b1
-SHA256: 73d5dbc15e0064b89dfb9e05ad51bc98c7f74113ed983e5a4db228892f03079d
-Section: Tweaks
-Description: 基于iOS墓碑机制的后台应用留存增强插件。
-Author: Your Name
-Name: BackgroundRetainer
 
 Package: com.xybp888.noapplemobilerepair
 Version: 0.0.1-103

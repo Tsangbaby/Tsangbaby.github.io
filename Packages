@@ -885,6 +885,40 @@ Depiction: https://apt.htv123.com/view/185
 Name: No Apple MobileRepair(RootHide)
 Sileodepiction: https://apt.htv123.com/sileo/185
 
+Package: com.yourname.backgroundkeepalive
+Version: 1.0.0-1+debug
+Architecture: iphoneos-arm64e
+Maintainer: YourName <your.email@example.com>
+Installed-Size: 504
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
+Suggests: libhooker | substitute
+Conflicts: com.rpetrich.backgrounder, com.jevinskie.backgroundmanager
+Filename: debs/提高应用留存率-适配隐根-1.01.deb
+Size: 54610
+MD5sum: a1d3c00579f64ed0040729b29c39280e
+SHA1: d3ea16a45bd6861e15c5c2fe4ada20954d35b3ad
+SHA256: befd6e07fd57f879954adb9552ebef14e332d8caf29f6a3ddc23b35d973c99f3
+Section: Tweaks
+Priority: optional
+Homepage: https://github.com/yourname/backgroundkeepalive
+Description: 基于iOS墓碑机制的后台保活插件
+ 这是一个专为Dopamine越狱环境设计的后台保活插件，通过Hook iOS系统的墓碑机制来提高应用的后台留存率。
+ .
+ 主要功能：
+ • 拦截应用挂起和终止操作
+ • 智能内存管理和优化
+ • 自动监控和重启机制
+ • 适配RootHide隐根越狱环境
+ • 长时间稳定运行，自动故障恢复
+ .
+ 支持iOS 14.0及以上版本，兼容arm64和arm64e架构。
+Tag: purpose::extension, compatible::ios14, compatible::ios15, compatible::ios16, compatible::ios17
+Author: YourName <your.email@example.com>
+Depiction: https://yourrepo.com/depictions/backgroundkeepalive
+Name: BackgroundKeepAlive
+Sileodepiction: https://yourrepo.com/sileo/backgroundkeepalive
+
 Package: dev.traurige.batterybuddy
 Version: 1.3.5
 Architecture: iphoneos-arm64

@@ -1,3 +1,57 @@
+Package: a1
+Version: 1.8.1-2-alpha2
+Architecture: iphoneos-arm64e
+Maintainer: LF，AD
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk
+Filename: debs/a1_1.8.1-2-alpha2_iphoneos-arm64e.deb
+Size: 19200
+MD5sum: 695fbbbc6d23d1adccfffc88d423f657
+SHA1: 870bf105f231991e52c53b86135b959dabe507d3
+SHA256: 2413d7a9e27c633d2a8d8672d28147df1ea19205b6eac21e9e492efc66fb68ae
+Section: Systems系统
+Description: Optimize Jetsam and kernel parameters to enhance background task performance.
+  通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
+  - Reduce priority of non-essential processes to improve system fluidity.
+    降低非核心进程优先级，优化系统流畅度。
+  - Modify kernel memory management parameters for better background task handling.
+    优化内核内存管理参数，改善后台任务调度机制。
+  - 此版本支持Rootless，不支持RootHide！请使用专属版本！
+  - 终端输入a1手动执行，输入a1ctl打开管理面板
+1.3:
+  - Added post-removal cleanup script | 新增卸载清理脚本
+  - Fixed path resolution issues (grep/awk/sysctl) | 修复路径解析错误
+  - Extended application compatibility list | 扩展应用兼容性列表
+  - Implemented log rotation to prevent disk space exhaustion | 新增日志轮转机制，避免磁盘空间耗尽
+1.4:
+  - Enhanced compatibility with additional applications.
+    扩展应用兼容性列表，支持更多第三方应用。
+1.5:
+  - 集成 aJetsamctl 与 swapon (AD)
+  - 扩展进程管理范围，覆盖更多系统服务
+  - 修改postinst与postrm
+  - 去除a1、a1laucher的.sh后缀
+  - 增加多个内核优化
+1.6:
+  -修复了路径bug
+  -修正了命令行工具的位置
+  -加入更加适合大家的内核配置（感谢飘散的烟）
+  -首次引入a1ctl（Beta）（a1管理面板）去除了a1laucher
+  -修复了postinst的路径问题，去除了postrm
+1.7:
+  -补全依赖项与路径，避免无法运行
+  -更新，完善a1ctl。
+  -加入更多注释，帮助萌新小白
+1.8:
+  -修复循环模式（默认关闭）下的进程堆积与僵尸进程
+  -首次支持RootHide
+  -修复a1ctl的pgrep报错
+  -完善、修复a1ctl
+  -注释掉3个提升系统压力的内核参数
+Author: LF
+Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
+Name: A1
+Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
+
 Package: cn.zqbb.stopautolaunchapps
 Version: 1.1
 Architecture: iphoneos-arm64
@@ -297,26 +351,6 @@ Author: Ivano Bilenchi <support@ib-soft.net>
 Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
 Icon: https://raw.githubusercontent.com/BarabaVip/Baraba/refs/heads/main/iCleaner.png
 Name: iCleaner Pro (Roothide)
-
-Package: com.huayuarc.swiftflowjs
-Version: 0.0.3
-Architecture: iphoneos-arm64e
-Maintainer: Huayuarc
-Installed-Size: 88
-Depends: mobilesubstrate
-Conflicts: com.huayuarc.thermalpatcher.rootless
-Filename: debs/com.huayuarc.swiftflowjs_0.0.3_iphoneos-arm64e.deb
-Size: 3054
-MD5sum: fc05f76a4dd9c5823743d885d49a12e4
-SHA1: b0fa77111a87977f6c633dc1cc8b81a6a985efa6
-SHA256: ab35e2a3ea47a3b6bd0d786ea6fa518c44882471c64ed0657e2ce83d04ee9110
-Section: Tweaks
-Description: ios系统级流畅度优化(极速：0.001)
-Author: Huayuarc
-Depiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
-Icon: https://huayuarc.github.io/images/ThermalPatcher.png
-Name: SwiftFlow Pro(Roothide)
-Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
 
 Package: com.iamdega.uiscroller
 Version: 1.0.5

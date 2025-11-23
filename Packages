@@ -52,6 +52,60 @@ Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
 Name: A1
 Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
 
+Package: a1
+Version: 1.8.3-alpha
+Architecture: iphoneos-arm64e
+Maintainer: LF，AD
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk
+Filename: debs/a1_1.8.3-alpha(roothide).deb
+Size: 17060
+MD5sum: 939a4aab34bb78c8039652d466c32a77
+SHA1: 024a02dbf148691b450e9c2a90d46a25be2d86ea
+SHA256: 34dc6b3cca547e99e3656520385e07315c986db46d5c5bc199872833eadf2bb0
+Section: Systems系统
+Description: Optimize Jetsam and kernel parameters to enhance background task performance.
+  通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
+  - Reduce priority of non-essential processes to improve system fluidity.
+    降低非核心进程优先级，优化系统流畅度。
+  - Modify kernel memory management parameters for better background task handling.
+    优化内核内存管理参数，改善后台任务调度机制。
+  - 此版本支持roothide，不支持rootless！请使用专属版本！
+  - 终端输入a1手动执行，输入a1ctl打开管理面板
+1.3:
+  - Added post-removal cleanup script | 新增卸载清理脚本
+  - Fixed path resolution issues (grep/awk/sysctl) | 修复路径解析错误
+  - Extended application compatibility list | 扩展应用兼容性列表
+  - Implemented log rotation to prevent disk space exhaustion | 新增日志轮转机制，避免磁盘空间耗尽
+1.4:
+  - Enhanced compatibility with additional applications.
+    扩展应用兼容性列表，支持更多第三方应用。
+1.5:
+  - 集成 aJetsamctl 与 swapon (AD)
+  - 扩展进程管理范围，覆盖更多系统服务
+  - 修改postinst与postrm
+  - 去除a1、a1laucher的.sh后缀
+  - 增加多个内核优化
+1.6:
+  -修复了路径bug
+  -修正了命令行工具的位置
+  -加入更加适合大家的内核配置（感谢飘散的烟）
+  -首次引入a1ctl（Beta）（a1管理面板）去除了a1laucher
+  -修复了postinst的路径问题，去除了postrm
+1.7:
+  -补全依赖项与路径，避免无法运行
+  -更新，完善a1ctl。
+  -加入更多注释，帮助萌新小白
+1.8:
+  -修复循环模式（默认关闭）下的进程堆积与僵尸进程
+  -首次支持RootHide
+  -修复a1ctl的pgrep报错
+  -完善、修复a1ctl
+  -注释掉3个提升系统压力的内核参数
+Author: LF
+Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
+Name: A1
+Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
+
 Package: cn.zqbb.stopautolaunchapps
 Version: 1.1
 Architecture: iphoneos-arm64

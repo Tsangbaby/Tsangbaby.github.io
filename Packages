@@ -1081,6 +1081,25 @@ Description: 将低电量弹窗改为横幅提示样式
 Author: Netskao
 Name: LowPowerBannerTips-Rootless
 
+Package: netskao.wcpureextension-rootless
+Version: 4.2-6
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 19660
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: netskao.wechatpurification-rootless
+Replaces: netskao.wechatpurification-rootless
+Provides: netskao.wechatpurification-rootless
+Filename: debs/微信净化4.2-6_自用无期限.deb
+Size: 7084312
+MD5sum: f791bf4a3121e554efc646ba61e43dd5
+SHA1: 08739ed8b86bfb0480c2a5ee0941483bc0241b9a
+SHA256: 782495b8550e9f2907f9b28b39e646366c65e47caba669b644bfe29b45d84099
+Section: Netskao-Tweaks
+Description: 微信净化，还原聊天本质，干净的微信给你，仅支持8.0.29及以上版本，设置位于微信-设置
+Author: Netskao
+Name: 微信净化-Rootless
+
 Package: ws.hbang.common
 Version: 2.0
 Architecture: iphoneos-arm64

@@ -510,38 +510,6 @@ Description: InjectIPA Tool
 Author: Netskao
 Name: injectipa
 
-Package: com.nx.stheno
-Version: 12.0
-Architecture: iphoneos-arm64e
-Maintainer: Crassna
-Installed-Size: 1788
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 16.0)
-Filename: debs/com.nx.stheno_12.0_iphoneos-arm64e.deb
-Size: 323238
-MD5sum: 6db26dc179a73332386e04e3c8d952cd
-SHA1: 5a7ac9eb5faea206955856a48b82558377649d80
-SHA256: 081838e594dc0a0fd88a68a58010e282259b8e5930476c641a7007cef54bedc6
-Section: Tweaks
-Description: Medusa!
-Author: Crassna
-Name: Stheno
-
-Package: com.nx.stheno
-Version: 12.0
-Architecture: iphoneos-arm64
-Maintainer: Crassna
-Installed-Size: 1792
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 16.0)
-Filename: debs/com.nx.stheno_12.0_iphoneos-arm64.deb
-Size: 325668
-MD5sum: 468598fb5c7793f62827509adffa346a
-SHA1: ca48a8e9bc167bb451d243f42baf28897dbee1cc
-SHA256: ab2d37bdd0234860ecacb2e97cdc60a610d6244ba8f64d1f3a88c9d5deb69243
-Section: Tweaks
-Description: Medusa!
-Author: Crassna
-Name: Stheno
-
 Package: com.opa334.choicy
 Version: 1.5-1
 Architecture: iphoneos-arm64e

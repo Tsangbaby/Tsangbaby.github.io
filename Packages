@@ -52,6 +52,60 @@ Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
 Name: A1
 Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
 
+Package: a1
+Version: 1.8.4-beta5-1
+Architecture: iphoneos-arm64e
+Maintainer: LF，AD
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, zstd, shell-cmds, coreutils
+Filename: debs/a1_1.8.4-beta5-1_iphoneos-arm64e.deb
+Size: 27184
+MD5sum: c6de6f47722854ecc3dcdee4f0a6f97d
+SHA1: f590ffd506c77011b1ed268c86a8727e64bcf9cd
+SHA256: ccf485b364770a9cc2185dae9e980c2cb94017f30314ef37c0c3801769f66317
+Section: Systems系统
+Description: Optimize Jetsam and kernel parameters to enhance background task performance.
+  通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
+  - Reduce priority of non-essential processes to improve system fluidity.
+    降低非核心进程优先级，优化系统流畅度。
+  - Modify kernel memory management parameters for better background task handling.
+    优化内核内存管理参数，改善后台任务调度机制。
+  - 此版本支持Roothide，不支持Rootless！请使用专属版本！
+  - 终端输入a1手动执行，输入a1ctl打开管理面板
+1.3:
+  - Added post-removal cleanup script | 新增卸载清理脚本
+  - Fixed path resolution issues (grep/awk/sysctl) | 修复路径解析错误
+  - Extended application compatibility list | 扩展应用兼容性列表
+  - Implemented log rotation to prevent disk space exhaustion | 新增日志轮转机制，避免磁盘空间耗尽
+1.4:
+  - Enhanced compatibility with additional applications.
+    扩展应用兼容性列表，支持更多第三方应用。
+1.5:
+  - 集成 aJetsamctl 与 swapon (AD)
+  - 扩展进程管理范围，覆盖更多系统服务
+  - 修改postinst与postrm
+  - 去除a1、a1laucher的.sh后缀
+  - 增加多个内核优化
+1.6:
+  -修复了路径bug
+  -修正了命令行工具的位置
+  -加入更加适合大家的内核配置（感谢飘散的烟）
+  -首次引入a1ctl（Beta）（a1管理面板）去除了a1laucher
+  -修复了postinst的路径问题，去除了postrm
+1.7:
+  -补全依赖项与路径，避免无法运行
+  -更新，完善a1ctl。
+  -加入更多注释，帮助萌新小白
+1.8:
+  -修复循环模式（默认关闭）下的进程堆积与僵尸进程
+  -首次支持RootHide
+  -修复a1ctl的pgrep报错
+  -完善、修复a1ctl
+  -注释掉3个提升系统压力的内核参数
+Author: LF
+Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
+Name: A1
+Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
+
 Package: cn.zqbb.stopautolaunchapps
 Version: 1.1
 Architecture: iphoneos-arm64
@@ -232,22 +286,6 @@ Section: Tweaks
 Description: An awesome MobileSubstrate tweak!
 Author: developlab
 Name: PeekTimeLine
-
-Package: com.dumpapp.wechat-rootless
-Version: 2.2.0
-Architecture: iphoneos-arm64
-Maintainer: WeChat
-Installed-Size: 14436
-Depends: mobilesubstrate, firmware (>= 12.0)
-Filename: debs/锤子助手_2.2.0_无根.deb
-Size: 5622432
-MD5sum: 2f9b87c58c6f96dfe8c9f40093aecf08
-SHA1: 5b4c603497a7fbad7f26a1a80805b7d435d93358
-SHA256: d1a792d4430cee01dd0c2a9525e2392cec802d6174cbf5667d653136ad2f393f
-Section: Tweaks
-Description: 锤子助手插件
-Author: DumpApp
-Name: 锤子助手-Rootless
 
 Package: com.dvntm.cc18
 Version: 0.0.3
@@ -853,40 +891,6 @@ Author: xybp888
 Depiction: https://apt.htv123.com/view/185
 Name: No Apple MobileRepair(RootHide)
 Sileodepiction: https://apt.htv123.com/sileo/185
-
-Package: com.yourname.backgroundkeepalive
-Version: 1.0.0-1+debug
-Architecture: iphoneos-arm64e
-Maintainer: YourName <your.email@example.com>
-Installed-Size: 504
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
-Suggests: libhooker | substitute
-Conflicts: com.rpetrich.backgrounder, com.jevinskie.backgroundmanager
-Filename: debs/提高应用留存率-适配隐根-1.01.deb
-Size: 54610
-MD5sum: a1d3c00579f64ed0040729b29c39280e
-SHA1: d3ea16a45bd6861e15c5c2fe4ada20954d35b3ad
-SHA256: befd6e07fd57f879954adb9552ebef14e332d8caf29f6a3ddc23b35d973c99f3
-Section: Tweaks
-Priority: optional
-Homepage: https://github.com/yourname/backgroundkeepalive
-Description: 基于iOS墓碑机制的后台保活插件
- 这是一个专为Dopamine越狱环境设计的后台保活插件，通过Hook iOS系统的墓碑机制来提高应用的后台留存率。
- .
- 主要功能：
- • 拦截应用挂起和终止操作
- • 智能内存管理和优化
- • 自动监控和重启机制
- • 适配RootHide隐根越狱环境
- • 长时间稳定运行，自动故障恢复
- .
- 支持iOS 14.0及以上版本，兼容arm64和arm64e架构。
-Tag: purpose::extension, compatible::ios14, compatible::ios15, compatible::ios16, compatible::ios17
-Author: YourName <your.email@example.com>
-Depiction: https://yourrepo.com/depictions/backgroundkeepalive
-Name: BackgroundKeepAlive
-Sileodepiction: https://yourrepo.com/sileo/backgroundkeepalive
 
 Package: dev.traurige.batterybuddy
 Version: 1.3.5

@@ -554,6 +554,22 @@ Depiction: https://chariz.com/get/swipeextenderx
 Icon: https://img.chariz.cloud/icon/swipeextenderx/icon@3x.png
 Name: SwipeExtenderX
 
+Package: com.roothide.lockdown
+Version: 1.0.2
+Architecture: iphoneos-arm64e
+Maintainer: roothide
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.roothide.lockdown_1.0.2_iphoneos-arm64e.deb
+Size: 5060
+MD5sum: 434e47fae60fae222f91f3a4093e1faa
+SHA1: fff3822db8f6d4dcdb71f9313e7beb65fe57ad29
+SHA256: 0b1be1a6d788c7c7c752148d098eabe2c2bda35a973c5ad050aca95ec2558d3b
+Section: Tweaks
+Description: JSC security hardening for WebContent process. Configures JavaScriptCore options to eliminate exploit primitives (addrof/fakeobj, JIT type confusion, GC UAF). Three security levels: balanced, strict, maximum.
+Author: roothide
+Name: lockdown
+
 Package: com.rpetrich.powercuff
 Version: 1.4
 Architecture: iphoneos-arm64e

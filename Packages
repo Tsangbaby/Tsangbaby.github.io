@@ -442,6 +442,40 @@ Description: enable screen recorder always work even on lock screen
 Author: Muirey03 & lclrc
 Name: RecordAnywhere
 
+Package: com.m4fn3.myrtle
+Version: 1.3.5
+Architecture: iphoneos-arm64
+Maintainer: mafu
+Installed-Size: 14012
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/com.m4fn3.myrtle_1.3.5_iphoneos-arm64.deb
+Size: 4158618
+MD5sum: 666b868e3abe281d780441bce55d0a5d
+SHA1: ca4f7b4643488ac53d5b66420f66dee7fe749a80
+SHA256: 8440bc449338ab4daddc4c799cc4949dc13ee5faf8912a018d981db3fd7edbcf
+Section: Tweaks
+Description: Ultimate control over your device through multitasking.
+Author: mafu
+Icon: https://m4fn3.github.io/repo/web/images/Myrtle.png
+Name: Myrtle
+
+Package: com.m4fn3.myrtle
+Version: 1.3.5
+Architecture: iphoneos-arm64e
+Maintainer: mafu
+Installed-Size: 14076
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/com.m4fn3.myrtle_1.3.5_iphoneos-arm64e.deb
+Size: 4276568
+MD5sum: f1c6c988e6307c26130c2939ba3e4e27
+SHA1: 32b47c8fd2cad25f43cfb75196da43f58b90e207
+SHA256: 50858cb80edea52dcd07e6d8a3e582a143eb4aa0f6fe75de144dc4018e36fbb4
+Section: Tweaks
+Description: Ultimate control over your device through multitasking.
+Author: mafu
+Icon: https://m4fn3.github.io/repo/web/images/Myrtle.png
+Name: Myrtle
+
 Package: com.netskao.injectipa
 Version: 1.5-5
 Architecture: iphoneos-arm64
@@ -567,6 +601,22 @@ SHA1: fff3822db8f6d4dcdb71f9313e7beb65fe57ad29
 SHA256: 0b1be1a6d788c7c7c752148d098eabe2c2bda35a973c5ad050aca95ec2558d3b
 Section: Tweaks
 Description: JSC security hardening for WebContent process. Configures JavaScriptCore options to eliminate exploit primitives (addrof/fakeobj, JIT type confusion, GC UAF). Three security levels: balanced, strict, maximum.
+Author: roothide
+Name: lockdown
+
+Package: com.roothide.lockdown
+Version: 1.0.3
+Architecture: iphoneos-arm64e
+Maintainer: roothide
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.roothide.lockdown_1.0.3_iphoneos-arm64e.deb
+Size: 5064
+MD5sum: 2f3697d23296b2c433c02c2ccbe9af94
+SHA1: 93c577dda008d11ece40b6e3545d89a2c4bb2053
+SHA256: 4dec2a9cbff90c11e2a866dacc2b5d934b3f6910f1fee4cc1375b0133cde6506
+Section: Tweaks
+Description: JSC security hardening for WebContent process. Configures JavaScriptCore options to eliminate exploit primitives (addrof/fakeobj, JIT type confusion, GC UAF). Enabled by default!
 Author: roothide
 Name: lockdown
 

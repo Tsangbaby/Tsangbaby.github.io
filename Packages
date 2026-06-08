@@ -56,6 +56,38 @@ Author: zqbb
 Name: Hello 3Q
 Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.stopautolaunchapps
 
+Package: com.82flex.unseen
+Version: 0.0.2
+Architecture: iphoneos-arm64e
+Maintainer: 82flex
+Installed-Size: 484
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/com.82flex.unseen_0.0.2_iphoneos-arm64e.deb
+Size: 43246
+MD5sum: e563adf49ed08d3b0372fa0a6cb1064a
+SHA1: a3bbdb0211cf38c04575787e54a14eb572756445
+SHA256: f697bfe8d49e367f4ce84f8daffc7569c589cb9b41ccd347efad0b8ef508664c
+Section: Tweaks
+Description: Neutralizes CALayer disableUpdateMask in the render server
+Author: 82flex
+Name: Unseen
+
+Package: com.82flex.unseen
+Version: 0.0.2
+Architecture: iphoneos-arm64
+Maintainer: 82flex
+Installed-Size: 484
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/com.82flex.unseen_0.0.2_iphoneos-arm64.deb
+Size: 43304
+MD5sum: e2c554b14db98ffea55847fc0387d548
+SHA1: 05d8308d837c1265e6961af2c40f8bb7228ca475
+SHA256: e3cbccc4d7a3a1d376338215d1d56ad1925461564735915c120b746bb45a4d90
+Section: Tweaks
+Description: Neutralizes CALayer disableUpdateMask in the render server
+Author: 82flex
+Name: Unseen
+
 Package: com.Morii.Appswitcher
 Version: 0.1
 Architecture: iphoneos-arm64
@@ -459,23 +491,6 @@ Description: Capture moments with photos, videos, and audio in the background wi
 Author: mafu
 Icon: https://m4fn3.github.io/repo/web/images/K2gecamen.png
 Name: K2gecamen
-
-Package: com.m4fn3.myrtle
-Version: 1.3.6
-Architecture: iphoneos-arm64e
-Maintainer: mafu
-Installed-Size: 14492
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
-Filename: debs/com.m4fn3.myrtle_1.3.6_iphoneos-arm64e.deb
-Size: 4417566
-MD5sum: ecc8a52c56161ef476bfb1d6989a27a3
-SHA1: 01c493e53a32a07ef392de046fc21e87c514cadb
-SHA256: f3f30af6abe28d8f16eb868129e65cb9a87fe959c12e8c954386fcec548a241b
-Section: Tweaks
-Description: Ultimate control over your device through multitasking.
-Author: mafu
-Icon: https://m4fn3.github.io/repo/web/images/Myrtle.png
-Name: Myrtle
 
 Package: com.netskao.injectipa
 Version: 1.5-5

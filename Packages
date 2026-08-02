@@ -792,6 +792,25 @@ Description: Prevent finger fatigue. It will automatically continue when you sli
 Author: pxcex
 Name: AutoScroll-RootHide
 
+Package: com.tsangbaby.kayoko
+Version: 4.8
+Architecture: iphoneos-arm64e
+Maintainer: Tsangbaby
+Installed-Size: 3156
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.mlgm.kayoko, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: com.mlgm.kayoko, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: debs/com.tsangbaby.kayoko_4.8_iphoneos-arm64e.deb
+Size: 670838
+MD5sum: bba8ab22739f5d1031de740b7c2ba44a
+SHA1: a8cb471ebb53d20f02981178435502146099d9eb
+SHA256: 07963d8a10b8537b9e686747ac31e6f7ddda3108a6b8dc6f54fd8dfa8d539fb8
+Section: Tweaks
+Description: Kayoko 剪切板，Tsangbaby 基于 mlgm 版进行二次修改
+Author: Tsangbaby
+Icon: https://github.com/Tsangbaby/Kayoko/blob/main/Icon/kayoko.png
+Name: Kayoko
+
 Package: com.tsangbaby.lecard.wuyu
 Version: 991.1.10
 Architecture: iphoneos-arm64

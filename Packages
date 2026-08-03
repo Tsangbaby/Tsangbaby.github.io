@@ -828,6 +828,26 @@ Description: Battery indicator, but cute
 Author: Traurige & neilsardesai <hello@traurige.dev>
 Name: BatteryBuddy
 
+Package: ellekit
+Version: 1.2
+Architecture: iphoneos-arm64e
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, com.saurik.substrate.safemode
+Breaks: com.opa334.libsandy (<= 1.1.6-3)
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Filename: debs/ellekit_1.2_iphoneos-arm64e.deb
+Size: 143768
+MD5sum: 22abcac3a5f481f54e55b5d56a145c4e
+SHA1: d31199f7a2175e3547dfdd3d69eea4916f072cc7
+SHA256: 3f05acea159f0afe6295ae3da3f3cda56958bcff33a6a9abcbbf83ebc6abaa2c
+Section: Tweak Injection
+Priority: optional
+Description: ElleKit tweak injection libraries and loader
+Author: Evelyn
+Icon: https://ellekit.space/logos/logo.png
+Name: ElleKit
+
 Package: jp.r-plus.doublecut
 Version: 0.8
 Architecture: iphoneos-arm64

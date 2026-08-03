@@ -16,46 +16,6 @@ Icon: https://apt.002599.xyz/web/icon/cn.zqbb.ccatop.png
 Name: CocoaTop
 Sileodepiction: https://apt.002599.xyz/web/cn.zqbb.ccatop
 
-Package: cn.zqbb.stopautolaunchapps
-Version: 1.1
-Architecture: iphoneos-arm64
-Maintainer: zqbb
-Installed-Size: 216
-Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0)
-Conflicts: zp.stopautolaunchapps
-Filename: debs/cn.zqbb.stopautolaunchapps_1.1_iphoneos-arm64.deb
-Size: 30450
-MD5sum: 283685c116141193860286828aa57f8d
-SHA1: d3be3c89b619f3cadd58e57ffcdaa5206b58179f
-SHA256: a1249978de9ec62675080668ff34aa863ae5e74dfd729836c5386ffe8cd59ea1
-Section: Tweaks
-Description: 禁用ios热启动神经网络引擎,别在后台热加载app咯!
- - 优点:节约内存,少杀后台.
- - 玄学:减少重启概率
-Author: zqbb
-Name: Hello 3Q
-Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.stopautolaunchapps
-
-Package: cn.zqbb.stopautolaunchapps
-Version: 1.1
-Architecture: iphoneos-arm64e
-Maintainer: zqbb
-Installed-Size: 232
-Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0)
-Conflicts: zp.stopautolaunchapps
-Filename: debs/cn.zqbb.stopautolaunchapps_1.1_iphoneos-arm64e.deb
-Size: 26504
-MD5sum: 39e5898a054ffe614005486a04f93f54
-SHA1: 6ed877f0c5330350c74fdf91cd192e73dc9b4531
-SHA256: 6b9729596683758e067f6ea41cc24893d57018cc944d92d0b27e94085e13fbbd
-Section: Tweaks
-Description: 禁用ios热启动神经网络引擎,别在后台热加载app咯!
- - 优点:节约内存,少杀后台.
- - 玄学:减少重启概率
-Author: zqbb
-Name: Hello 3Q
-Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.stopautolaunchapps
-
 Package: com.82flex.unseen
 Version: 0.0.2
 Architecture: iphoneos-arm64e
@@ -87,21 +47,6 @@ Section: Tweaks
 Description: Neutralizes CALayer disableUpdateMask in the render server
 Author: 82flex
 Name: Unseen
-
-Package: com.Morii.Appswitcher
-Version: 0.1
-Architecture: iphoneos-arm64
-Maintainer: Morii
-Depends: mobilesubstrate
-Filename: debs/com.Morii.Appswitcher_0.1_iphoneos-arm64.deb
-Size: 2464
-MD5sum: 0422187c91d63bdfde89067fa9f7ddc4
-SHA1: 08dbbee0bdfb492c8abf64df5829f49d9662473e
-SHA256: 8f0ebd81db221e1c9543e5979f3bfd7eedf06f77400fcc6fa8a6d019aa2b8664
-Section: Tweaks
-Description: An awesome MobileSubstrate tweak!
-Author: Morii
-Name: AppSwitcher Smooth
 
 Package: com.ali7assan.swipeselection.rootless
 Version: 2.0
@@ -474,24 +419,6 @@ Description: enable screen recorder always work even on lock screen
 Author: Muirey03 & lclrc
 Name: RecordAnywhere
 
-Package: com.m4fn3.k2gecamen
-Version: 1.0.5
-Architecture: iphoneos-arm64e
-Maintainer: mafu
-Installed-Size: 6204
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.ccsupport
-Filename: debs/com.m4fn3.k2gecamen_1.0.5_iphoneos-arm64e.deb
-Size: 5831968
-MD5sum: b254f9ace626ba00c5d5fab3ac7324a1
-SHA1: b43ab8d43ba81e3bf3fd0abe5c677ac2fd4fc941
-SHA256: 67b2ebf1f4cf82649dce1d1af5a161e1ca717ab3fac0eba4427ae2d5c2d9a2c6
-Section: Tweaks
-Description: Capture moments with photos, videos, and audio in the background with ease.
-Author: mafu
-Icon: https://m4fn3.github.io/repo/web/images/K2gecamen.png
-Name: K2gecamen
-
 Package: com.netskao.injectipa
 Version: 1.5-5
 Architecture: iphoneos-arm64
@@ -507,23 +434,6 @@ Section: Netskao-Tweaks
 Description: InjectIPA Tool
 Author: Netskao
 Name: injectipa
-
-Package: com.opa334.choicy
-Version: 1.5-1
-Architecture: iphoneos-arm64e
-Maintainer: opa334 <opa334@protonmail.com>
-Installed-Size: 888
-Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
-Filename: debs/com.opa334.choicy_1.5-1_iphoneos-arm64e.deb
-Size: 112214
-MD5sum: 9d7ac9c9eab7038eff8055f3cf0df9c2
-SHA1: cea311e1db08f3ad30ec3bc1237bd336b8501e24
-SHA256: 37565ff96eb12bd6e73a1aa2a312e54e99d4158185369ab810c2cf21dffc9bff
-Section: Tweaks
-Description: Advanced Tweak Configuration!
-Author: opa334 <opa334@protonmail.com>
-Depiction: https://opa334.github.io/depic/Choicy/index.html
-Name: Choicy
 
 Package: com.pantsthief.flexing
 Version: 1.5.2
@@ -549,24 +459,6 @@ Author: Tanner Bennett <thepantsthief@me.com>
 Depiction: https://nscake.github.io/package.html?package=com.pantsthief.flexing
 Name: FLEXing
 Sileodepiction-Unused: https://nscake.github.io/depictions/com.pantsthief.flexing.sileo.json
-
-Package: com.ps.githubweblegacycompat
-Version: 2.3.22
-Architecture: iphoneos-arm64
-Maintainer: PoomSmart
-Installed-Size: 3240
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), firmware (<< 16.4), com.ps.polyfills (>= 2.12.3)
-Filename: debs/com.ps.githubweblegacycompat_2.3.22_iphoneos-arm64.deb
-Size: 524442
-MD5sum: 611afc376d77aece7ad2dd351f6cd26e
-SHA1: 7f0ad30257e5d646fe56f070197af9c78d1f0914
-SHA256: 60d886fd4da7be8e879f36d91637940f3235c54f41041fd71b1981b07bd7644d
-Section: Tweaks
-Description: Makes GitHub website more accessible on iOS < 16.4
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/githubweblegacycompat.html
-Name: GitHubWebLegacyCompat
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/githubweblegacycompat.json
 
 Package: com.ps.smoothcursorios13
 Version: 0.0.1
@@ -619,27 +511,6 @@ Section: Tweaks
 Description: JSC security hardening for WebContent process. Configures JavaScriptCore options to eliminate exploit primitives (addrof/fakeobj, JIT type confusion, GC UAF). Enabled by default!
 Author: roothide
 Name: lockdown
-
-Package: com.rpetrich.powercuff
-Version: 1.4
-Architecture: iphoneos-arm64e
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 188
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
-Filename: debs/com.rpetrich.powercuff_1.4_iphoneos-arm64e.deb
-Size: 12582
-MD5sum: 259d41167b750edbc037d000ef5b0d7f
-SHA1: 0bdeac5d6625dba7f74624c6abdb7c9fea63294c
-SHA256: 80f92d867dac219ebdf0066e0e78832d6b36405b6e407fd28f193e5da44c406a
-Section: Tweaks
-Homepage: http://rpetri.ch/cydia/powercuff/
-Description: Select from additional low power device states
-Tag: purpose::extension
-Author: Ryan Petrich <rpetrich+powercuff@gmail.com>
-Depiction: http://rpetri.ch/cydia/powercuff/
-Dev: rpetrich
-Name: Powercuff
-Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.squidforce.moreactionsforappicon
 Version: 1.1.0
@@ -791,6 +662,26 @@ SHA256: a0324962cb1153f84ce13253122dc585cfbe7dc6cfd5708640c177a6c5c1adf8
 Description: Prevent finger fatigue. It will automatically continue when you slide an option or view, no need to keep touching with your finger, and the speed is determined by your strength.
 Author: pxcex
 Name: AutoScroll-RootHide
+
+Package: com.tsangbaby.copylite
+Version: 1.8.6
+Architecture: iphoneos-arm64e
+Maintainer: Tsangbaby
+Installed-Size: 1800
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), com.opa334.libsandy
+Conflicts: me.tomt000.copylog, com.newbie.ioscopy
+Replaces: me.tomt000.copylog, com.newbie.ioscopy
+Provides: me.tomt000.copylog
+Filename: debs/com.tsangbaby.copylite_1.8.6_iphoneos-arm64e.deb
+Size: 242818
+MD5sum: 2d6c7d6d5c7482caea30e5a97d72248b
+SHA1: eec835d8d6f2b739d429043968c5f46fd1b04abe
+SHA256: f8a48f3fbb1ea5558830eb09c8a19538e4def74c5ae9da369a4029ec3bd60977
+Section: Tweaks
+Description: CopyLite clipboard history manager for iOS with text, image, search, and paste support.
+Author: Tsangbaby
+Icon: file:///Library/PreferenceBundles/CopyLitePrefs.bundle/icon.png
+Name: CopyLite
 
 Package: com.tsangbaby.kayoko
 Version: 4.8
@@ -1045,22 +936,6 @@ Section: Netskao-Tweaks
 Description: 微信净化，还原聊天本质，干净的微信给你，仅支持8.0.29及以上版本，设置位于微信-设置
 Author: Netskao
 Name: 微信净化-Rootless
-
-Package: qqantirecall.x
-Version: 1.6
-Architecture: iphoneos-arm64
-Maintainer: 𝙓
-Installed-Size: 1084
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/qqantirecall.x_1.6_iphoneos-arm64.deb
-Size: 1336728
-MD5sum: ec11bffc654f0409d19703395d30eedd
-SHA1: 79c79a1b619df8e95264901c56062010f4470f29
-SHA256: ce366d296be4cbe4346691dd7a240d1e23b559764a357bb96d306dbbb0b6f3c8
-Section: Tweaks
-Description: 模块入口位于QQ内设置: NTQQ_AntiRecall
-Author: 𝙓
-Name: NTQQ_AntiRecall
 
 Package: ws.hbang.common
 Version: 2.0

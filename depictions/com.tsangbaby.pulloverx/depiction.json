@@ -70,6 +70,17 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "1.9.8",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- PullOver X托管横屏App云适配iOS17；\n\n- 外部URL和通知横幅窗口化可能下个版本再适配iOS17，是可能，不是一定能，主要看我心情；\n\n- 修复主屏为横屏模式，PullOver X托管横屏场景下，卡片外区域无法始终透明并穿透到主屏问题；\n\n- 尝试优化几下PullOver X托管横屏App窗口问题，尝试…懂吗？\n\n- 绞杀了几只吱吱叫地臭老鼠。",
+          "useRawFormat": false
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "1.9.7",
           "useBoldText": true,
           "useBottomMargin": false

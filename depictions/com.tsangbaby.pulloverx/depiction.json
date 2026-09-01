@@ -1,5 +1,6 @@
 {
   "class": "DepictionTabView",
+  "headerImage": "https://tsangbaby.github.io/image/pulloverx.png",
   "tintColor": "#2100CA",
   "minVersion": "0.3",
   "tabs": [

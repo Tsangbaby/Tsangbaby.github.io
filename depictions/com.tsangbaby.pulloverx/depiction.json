@@ -1,0 +1,194 @@
+{
+  "class": "DepictionTabView",
+  "tintColor": "#2100CA",
+  "minVersion": "0.3",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "描述",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "悬浮多任务窗口工具，基于 Pullover Pro 进行修改。",
+          "useRawFormat": true
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 6,
+          "itemSize": "{160, 346.67}",
+          "screenshots": [
+            {
+              "accessibilityText": "图 1",
+              "url": "https://Tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/1.png"
+            },
+            {
+              "accessibilityText": "图 2",
+              "url": "https://Tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/2.png"
+            },
+            {
+              "accessibilityText": "图 3",
+              "url": "https://Tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/3.png"
+            },
+            {
+              "accessibilityText": "图 4",
+              "url": "https://Tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/4.png"
+            }
+          ]
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "详情",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 8
+        },
+        {
+          "class": "DepictionTableTextView",
+          "text": "iOS 15.0–16.7.16",
+          "title": "支持系统"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.9.7",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "1. 修复在 PullOver X 托管 App 时，呼出快速切换并选择其他 App 后，错误跳转到主屏全屏打开的问题；\n2. 解决了几个老鼠屎。",
+          "useRawFormat": true
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.9.6",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "1. 新增当主屏为横屏时，快速切换菜单超过 10 个 App 后自动切换双列布局；\n2. 优化 PullOver X 托管横屏 App 功能（竖屏和横屏模式下）；\n3. 修复主屏为竖屏模式下，PullOver X 托管横屏 App 移动窗口后收起时把手跳动的问题；\n4. 修复 PullOver X 窗口收起后再次呼出时出现闪烁白屏的问题；\n5. 修复主屏为横屏且 PullOver X 托管 App 时，快速切换选择 App 拖动到框内后全屏打开逻辑行为不符的问题；\n6. 优化“拖动到此处快速打开”方框为圆角；\n7. 优化当前主屏打开 App A 时，快速切换菜单列表过滤当前 App A，避免重复打开；\n8. 修复主屏为横屏时，快速切换双列布局右列无法拖动 App 到方框内快速打开的问题；\n9. 修复主屏为竖屏且 PullOver X 托管横屏 App 时，呼出快速切换并选择 App 后无动画跳动的问题；\n10. 进一步优化 PullOver X 托管的横屏键盘，并尝试修复 iOS 17 键盘丢失问题；\n11. 优化快速切换选择 App 时的震动反馈；\n12. 继续解决了一些提出问题和建议的嗨佬。",
+          "useRawFormat": true
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.9.5",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "1. 新增主屏为竖屏且 PullOver X 托管竖屏 App 时，双击把手切换为当前窗口的全屏模式；\n2. 修复 PullOver X 托管竖屏 App（带键盘）时快速切换竖屏 App（不带键盘）后，窗口和把手位置被改变的问题；\n3. 修复 PullOver X 托管横屏 App（如视频全屏、游戏）时快速切换竖屏 App（带键盘）后，窗口和把手位置被改变的问题；\n4. 修复 iOS 16 主屏为横屏并托管微信时疯狂跳“disco 舞蹈”的问题；\n5. 解决经常提出问题和建议的用户。",
+          "useRawFormat": true
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.9.4",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "1. 新增主屏为横屏且 PullOver X 托管横屏 App 时，双击把手切换为悬浮小窗：拖动把手移动窗口，点击收起窗口，双击恢复窗口原始比例；\n2. 新增竖屏迷你窗口功能。设置选项开启后，PullOver X 窗口会以迷你窗形式展现，呼出键盘会恢复原始窗口比例，方便输入；（此功能仅在主屏为竖屏且 PullOver X 接管竖屏 App 时可用）\n3. 修复关闭外部 URL 窗口化时，PullOver X 托管抖音横屏 App 自动收起窗口的问题；\n4. 修复主屏为竖屏时，窗口竖屏 App 之间切换的动画异常问题；\n5. 修复 iOS 15 相机问题：开启相机后返回桌面，主屏任意打开 App 时，PullOver X 接管任意 App 后相机（小绿点）在后台自动启动的问题；\n6. 修复点击消息通知后被 PullOver X 接管冷启动 App 时，通知横幅不会主动消失的问题。（感谢无尽伤痛都锁进黑夜大佬帮忙修复）\n\n**Tips：**关于外部 URL 窗口化问题，建议把支付宝、其他支付 App、Patcher（RootHide 插件转换器）加入黑名单，以免引起不必要的 BUG；这些问题目前不打算修复。",
+          "useRawFormat": true
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.8.9",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "1. 新增主屏为竖屏（或横屏）模式下的托管 App 横屏适应，横屏游戏类、视频 App 类等其他场景已全部实现；iOS 16 代码由无尽伤痛都锁进黑夜提供，感谢大佬；\n2. 修复 iOS 15 系统在 PullOver X 窗口接管相机二次以上启动后，几秒后画面模糊的问题。（感谢无尽伤痛都锁进黑夜提供修复代码）\n3. 修复主屏为竖屏模式下，PullOver X 窗口接管横屏 App（如游戏、视频全屏等）时把手跳动的问题。（感谢彪佬提供思路）\n4. 本插件新增功能适配 iOS 15–16 全系列；iOS 17 因没有设备，无法保证完美支持；\n5. 已解决提出问题的用户，免费分享不要提过多要求。",
+          "useRawFormat": true
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.8.6",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "1. 新增主屏为竖屏（或横屏）模式下的托管 App 横屏适应，目前已支持横屏游戏类 App；视频 App 类的全屏旋转将在下个版本实现；主屏竖屏模式下的横屏窗口可以通过拖动把手上下移动；\n2. 感谢三位大佬的协助：mlgm 提供思路、无尽伤痛都锁进黑夜提供横屏键盘代码、彪哥提供描述词（排名不分先后）。",
+          "useRawFormat": true
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.8.5",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "1. 尝试修复通知横幅窗口化在 iOS 15/iOS 16 全系不生效的问题（测试设备 iOS 15.4.1 和 iOS 16.0.3 测试完美）；\n2. 修复 iOS 15/iOS 16 相机一直在后台运行的 BUG，同时重建相机运行机制；\n3. 修复应用程序添加到黑名单仍然不生效的问题；\n4. 尝试修复点击通知横幅后，PullOver X 窗口接管通知，通知横幅不会立即消失的问题；\n5. 优化 PullOver X 窗口被呼出后系统自动锁屏，解锁后 PullOver X 窗口不会被收回的问题；\n6. 优化点击/拉出把手呼出窗口过程中的动画掉帧问题（仅限 ProMotion 设备上尝试修复）。",
+          "useRawFormat": true
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.7.4",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "1. 新增监听 URL 窗口化；\n2. 新增通知横幅窗口化；\n3. 新增固定把手功能；\n4. 优化文案细节。",
+          "useRawFormat": true
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.7.2",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "1. 新增监听 URL 跳转。（通知监听尚未完成，工作流时间用完，只能等下个月更新）",
+          "useRawFormat": true
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.5.0-1",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "1. 优化系统旋转开启后的逻辑；\n2. 优化横屏模式下 UI 放大时长按把手的动画（一般人发现不了）。",
+          "useRawFormat": true
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.4.6",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "1. 新增双侧把手呼出；\n2. 新增窗口圆角半径调节，实时生效；\n3. 新增横屏模式下打开窗口后双击把手放大 UI，方便浏览；横屏键盘也会自动放大，方便打字（键盘放大功能来源于 mlgm 更新）；\n4. 新增系统录屏快捷操作，可从选择收藏的应用中添加屏幕录制功能；屏幕录制过程中按照既定逻辑运行，以减少不必要的冲突。",
+          "useRawFormat": true
+        }
+      ]
+    }
+  ]
+}

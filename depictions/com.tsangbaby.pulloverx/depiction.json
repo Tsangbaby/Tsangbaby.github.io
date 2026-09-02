@@ -69,6 +69,21 @@
       "tabname": "更新",
       "views": [
         {
+      "class": "DepictionStackView",
+      "tabname": "更新",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.9.9",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 新增横屏窗口圆角半径（与竖屏窗口圆角半径分开设置）；\n\n- 删除多余无效代码；\n\n- 外部URL和通知横幅窗口化暂时不适配iOS17，没设备不好处理；\n\n- 解决了几个问题特多的网友。",
+          "useRawFormat": false
+        },
+        {
           "class": "DepictionSubheaderView",
           "title": "1.9.8",
           "useBoldText": true,

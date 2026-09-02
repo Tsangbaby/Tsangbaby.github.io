@@ -69,10 +69,6 @@
       "tabname": "更新",
       "views": [
         {
-      "class": "DepictionStackView",
-      "tabname": "更新",
-      "views": [
-        {
           "class": "DepictionSubheaderView",
           "title": "1.9.9",
           "useBoldText": true,

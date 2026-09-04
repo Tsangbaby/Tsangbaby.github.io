@@ -70,6 +70,17 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "2.0.1",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 删除窗口手动拉出和收回动画（视觉效果不理想）；\n\n- 优化快速切换拖拽反馈视觉逻辑；\n\n- 优化窗口呼出和收回动画（可能比之前好一些？）；\n\n- 可能End了。",
+          "useRawFormat": false
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "2.0.0",
           "useBoldText": true,
           "useBottomMargin": false

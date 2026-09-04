@@ -735,17 +735,17 @@ Icon: https://repo.anthopak.dev/assets/com.anthopak.pancake-rootless/icon.png
 Name: PanCake (Rootless) 汉化版
 
 Package: com.tsangbaby.pulloverx
-Version: 2.0.0
+Version: 2.0.1
 Architecture: iphoneos-arm64e
 Maintainer: Tsangbaby
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
 Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
 Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
-Filename: debs/pullover-x-2.0.0-roothide.deb
-Size: 530710
-MD5sum: 5a8ee08f533d0f70ca1aa0f202121fcd
-SHA1: 0e42206b7cab2b5cef871d35d60794b04fa9dddd
-SHA256: 792b911f1143b86a83495c50243e0b129bf530b18c9973ed69a74634456b0f09
+Filename: debs/PullOver-X-2.0.1-roothide.deb
+Size: 535958
+MD5sum: 84ffb26ca52c5a68c93c9c4b1d47910b
+SHA1: 2f7c2bf146f35d3e10d541fcca4a3adaaffeb28d
+SHA256: 318a922011115c62bcd9fad462a8bd4eee4b8a548443375c62b4336f7dcd3084
 Section: Tweaks
 Priority: optional
 Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
@@ -756,17 +756,17 @@ Name: PullOver X
 Sileodepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/depiction.json
 
 Package: com.tsangbaby.pulloverx
-Version: 2.0.0
+Version: 2.0.1
 Architecture: iphoneos-arm64
 Maintainer: Tsangbaby
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
 Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
 Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
-Filename: debs/pullover-x-2.0.0-rootless.deb
-Size: 534150
-MD5sum: 34da59d5224f5c61f4d95a71b0ab5206
-SHA1: 46ff44a74bf1fb3b50a5d9fbd1fdc3f4cf4c729d
-SHA256: 4249b25894d5ead2539a347ce8591b650cd2f34f8814dc05941a4fff3889d4f9
+Filename: debs/PullOver-X-2.0.1-rootless.deb
+Size: 539182
+MD5sum: e42f50d8aff6cca014b0d2c0b3477551
+SHA1: 546491ded926cd796f91c2c66f8abc36af5c73d6
+SHA256: 3d09c2ce91ffea0c7723e5f7ae89aa3b7e4ea0d7d683bad9050bd70f942ed23b
 Section: Tweaks
 Priority: optional
 Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改

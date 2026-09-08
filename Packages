@@ -735,17 +735,17 @@ Icon: https://repo.anthopak.dev/assets/com.anthopak.pancake-rootless/icon.png
 Name: PanCake (Rootless) 汉化版
 
 Package: com.tsangbaby.pulloverx
-Version: 2.0.1
-Architecture: iphoneos-arm64e
+Version: 2.0.2
+Architecture: iphoneos-arm64
 Maintainer: Tsangbaby
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
 Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
 Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
-Filename: debs/PullOver-X-2.0.1-roothide.deb
-Size: 535958
-MD5sum: 84ffb26ca52c5a68c93c9c4b1d47910b
-SHA1: 2f7c2bf146f35d3e10d541fcca4a3adaaffeb28d
-SHA256: 318a922011115c62bcd9fad462a8bd4eee4b8a548443375c62b4336f7dcd3084
+Filename: debs/PullOver-X-2.0.2-rootless.deb
+Size: 549564
+MD5sum: 0091d569ec8623713f4f3fd6d0311688
+SHA1: 5ad87b0f74bfdad1cf86661ef9a3e2a6ac41db4c
+SHA256: db1c237632adb413739caf3e66398312695c170fda3b62a6e3aa05eca03b4c73
 Section: Tweaks
 Priority: optional
 Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
@@ -756,17 +756,17 @@ Name: PullOver X
 Sileodepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/depiction.json
 
 Package: com.tsangbaby.pulloverx
-Version: 2.0.1
-Architecture: iphoneos-arm64
+Version: 2.0.2
+Architecture: iphoneos-arm64e
 Maintainer: Tsangbaby
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
 Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
 Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
-Filename: debs/PullOver-X-2.0.1-rootless.deb
-Size: 539182
-MD5sum: e42f50d8aff6cca014b0d2c0b3477551
-SHA1: 546491ded926cd796f91c2c66f8abc36af5c73d6
-SHA256: 3d09c2ce91ffea0c7723e5f7ae89aa3b7e4ea0d7d683bad9050bd70f942ed23b
+Filename: debs/PullOver-X-2.0.2-roothide.deb
+Size: 546408
+MD5sum: edfea5c9794a3cc52feadcd6586001b7
+SHA1: 7c228ec413fedb848983dde3055ceed5264ce29b
+SHA256: 6e2d834dae7610a526faecc40535d67923692e771471ad8110253d5ece920d8a
 Section: Tweaks
 Priority: optional
 Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改

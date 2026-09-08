@@ -70,6 +70,17 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "2.0.2",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 修复托管场景被中断的问题（感谢无尽伤痛都锁进黑夜大佬协助修复）；\n\n- 新增竖屏和横屏快速切换显示应用数量；\n\n- 新增把手防误触（感谢mlgm代码）；\n\n- 可能不End了。",
+          "useRawFormat": false
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "2.0.1",
           "useBoldText": true,
           "useBottomMargin": false

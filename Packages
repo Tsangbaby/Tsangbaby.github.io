@@ -735,17 +735,17 @@ Icon: https://repo.anthopak.dev/assets/com.anthopak.pancake-rootless/icon.png
 Name: PanCake (Rootless) 汉化版
 
 Package: com.tsangbaby.pulloverx
-Version: 2.0.2
-Architecture: iphoneos-arm64
+Version: 2.0.3
+Architecture: iphoneos-arm64e
 Maintainer: Tsangbaby
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
 Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
 Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
-Filename: debs/PullOver-X-2.0.2-rootless.deb
-Size: 549564
-MD5sum: 0091d569ec8623713f4f3fd6d0311688
-SHA1: 5ad87b0f74bfdad1cf86661ef9a3e2a6ac41db4c
-SHA256: db1c237632adb413739caf3e66398312695c170fda3b62a6e3aa05eca03b4c73
+Filename: debs/PullOverX-2.0.3-roothide.deb
+Size: 580262
+MD5sum: 456c71d0fc2e4b5a0327c26bba9dd753
+SHA1: f2191f5b868f4e04455a7698aac32ede1d467e18
+SHA256: d9fe0b1037c88c217fe3bd8c425bdaf2ff42c8b71f78418c1971e58642bff974
 Section: Tweaks
 Priority: optional
 Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
@@ -756,17 +756,17 @@ Name: PullOver X
 Sileodepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/depiction.json
 
 Package: com.tsangbaby.pulloverx
-Version: 2.0.2
-Architecture: iphoneos-arm64e
+Version: 2.0.3
+Architecture: iphoneos-arm64
 Maintainer: Tsangbaby
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
 Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
 Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
-Filename: debs/PullOver-X-2.0.2-roothide.deb
-Size: 546408
-MD5sum: edfea5c9794a3cc52feadcd6586001b7
-SHA1: 7c228ec413fedb848983dde3055ceed5264ce29b
-SHA256: 6e2d834dae7610a526faecc40535d67923692e771471ad8110253d5ece920d8a
+Filename: debs/PullOverX-2.0.3-rootless.deb
+Size: 583714
+MD5sum: a794b75f3679f993defb4d6af32c8700
+SHA1: 09a2008d3a3cd6120caff49a677a3875b7bf1829
+SHA256: cb87d4cdd23718ba5cece22e32892a4d9202c8621dbc901120ac31146a423683
 Section: Tweaks
 Priority: optional
 Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改

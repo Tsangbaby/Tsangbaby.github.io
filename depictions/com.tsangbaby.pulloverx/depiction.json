@@ -70,6 +70,17 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "2.0.3",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 修复iOS16托管横屏场景时收回与呼出布局不一致问题；\n\n- 优化托管横屏时快速切换的逻辑行为；\n\n- 新增声音反馈；\n\n- 解决一些未知问题。",
+          "useRawFormat": false
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "2.0.2",
           "useBoldText": true,
           "useBottomMargin": false

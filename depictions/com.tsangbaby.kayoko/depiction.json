@@ -1,0 +1,89 @@
+{
+  "class": "DepictionTabView",
+  "headerImage": "https://tsangbaby.github.io/image/kayoko.png",
+  "tintColor": "#2100CA",
+  "minVersion": "0.3",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "描述",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Kayoko 剪切板，基于 mlgm 版进行二次修改。",
+          "useRawFormat": true
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 6,
+          "itemSize": "{160, 346.67}",
+          "screenshots": [
+            {
+              "accessibilityText": "图 1",
+              "url": "https://Tsangbaby.github.io/depictions/com.tsangbaby.kayoko/1.png"
+            },
+            {
+              "accessibilityText": "图 2",
+              "url": "https://Tsangbaby.github.io/depictions/com.tsangbaby.kayoko/2.png"
+            },
+            {
+              "accessibilityText": "图 3",
+              "url": "https://Tsangbaby.github.io/depictions/com.tsangbaby.kayoko/3.png"
+            },
+            {
+              "accessibilityText": "图 4",
+              "url": "https://Tsangbaby.github.io/depictions/com.tsangbaby.kayoko/4.png"
+            },
+            {
+              "accessibilityText": "图 5",
+              "url": "https://Tsangbaby.github.io/depictions/com.tsangbaby.kayoko/5.png"
+            }
+          ]
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "详情",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 8
+        },
+        {
+          "class": "DepictionTableTextView",
+          "text": "iOS 15+",
+          "title": "支持系统"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "4.8.1",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 新增历史记录与收藏文本编辑功能；\n\n- 支持在预览页面直接修改整段文字；\n\n- 支持在滑动选词页面局部编辑所选内容；\n\n- 编辑后自动同步并刷新搜索、筛选及列表结果；\n\n- 防止保存空内容或重复内容；\n\n- 优化编辑时的键盘避让、横竖屏布局及返回动画；\n\n- 优化文字预览显示和系统多任务手势兼容性；\n\n- 修复若干界面状态与交互问题。",
+          "useRawFormat": false
+        }
+      ]
+    }
+  ]
+}

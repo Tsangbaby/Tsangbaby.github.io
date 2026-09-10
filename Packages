@@ -710,16 +710,17 @@ Installed-Size: 3220
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
 Conflicts: com.mlgm.kayoko, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
 Replaces: com.mlgm.kayoko, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
-Filename: debs/Kayoko_4.8.1_RootHide_arm64e.deb
-Size: 685634
-MD5sum: 7bb9fd1f6285683177914dbfa229da3f
-SHA1: e274c13b14f54357badc14a5fb4ae9ab76f17cc1
-SHA256: 10e5373aa73b58e509af310661827798a421b860b3a09185306f74c65f85ee49
+Filename: debs/Kayoko_4.8.1_RootHide_SileoMetadata_arm64e.deb
+Size: 685898
+MD5sum: a31b4cafb0f608edf8a1dd8365d0baec
+SHA1: 430e2dab14207455ad16d7b442a7bf0e5a074e80
+SHA256: c54f993454e8db976c14a094d741df06fc775ccc147e6e1df95aa5470c27fbbe
 Section: Tweaks
 Description: Kayoko 剪切板，Tsangbaby 基于 mlgm 版进行二次修改
 Author: Tsangbaby
-Icon: https://github.com/Tsangbaby/Kayoko/blob/main/Icon/kayoko.png
+Icon: https://tsangbaby.github.io/Icon/Kayoko.png
 Name: Kayoko
+Sileodepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.kayoko/depiction.json
 
 Package: com.tsangbaby.lecard.wuyu
 Version: 991.1.10

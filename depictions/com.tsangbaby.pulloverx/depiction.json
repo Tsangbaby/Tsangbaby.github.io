@@ -70,6 +70,17 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "2.0.4",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 修复窗口呼出场景下锁屏后再解锁把手丢失的问题；\n\n- 优化设置页面视觉布局效果（新增SF Symbols）；\n\n- 踩死了几只曱甴。",
+          "useRawFormat": false
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "2.0.3",
           "useBoldText": true,
           "useBottomMargin": false

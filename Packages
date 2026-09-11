@@ -755,17 +755,17 @@ Icon: https://repo.anthopak.dev/assets/com.anthopak.pancake-rootless/icon.png
 Name: PanCake (Rootless) 汉化版
 
 Package: com.tsangbaby.pulloverx
-Version: 2.0.3
-Architecture: iphoneos-arm64e
+Version: 2.0.4
+Architecture: iphoneos-arm64
 Maintainer: Tsangbaby
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
 Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
 Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
-Filename: debs/PullOverX-2.0.3-roothide.deb
-Size: 580262
-MD5sum: 456c71d0fc2e4b5a0327c26bba9dd753
-SHA1: f2191f5b868f4e04455a7698aac32ede1d467e18
-SHA256: d9fe0b1037c88c217fe3bd8c425bdaf2ff42c8b71f78418c1971e58642bff974
+Filename: debs/PullOverX_2.0.4_Rootless_iphoneos-arm64.deb
+Size: 585772
+MD5sum: 33597b602726a73d0a3d083787e5a2e5
+SHA1: f9faeaf641ba952025fc4330cecd30cfdec2b475
+SHA256: bb2513d731f027e152a489e762603c4c0adc3d5c87918514621e97a55482304b
 Section: Tweaks
 Priority: optional
 Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
@@ -776,17 +776,17 @@ Name: PullOver X
 Sileodepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/depiction.json
 
 Package: com.tsangbaby.pulloverx
-Version: 2.0.3
-Architecture: iphoneos-arm64
+Version: 2.0.4
+Architecture: iphoneos-arm64e
 Maintainer: Tsangbaby
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
 Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
 Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
-Filename: debs/PullOverX-2.0.3-rootless.deb
-Size: 583714
-MD5sum: a794b75f3679f993defb4d6af32c8700
-SHA1: 09a2008d3a3cd6120caff49a677a3875b7bf1829
-SHA256: cb87d4cdd23718ba5cece22e32892a4d9202c8621dbc901120ac31146a423683
+Filename: debs/PullOverX_2.0.4_RootHide_iphoneos-arm64e.deb
+Size: 582202
+MD5sum: b3f3002868f094468c42d7e12016beff
+SHA1: 6897861ee0061dd4a0f7c1efe7fa2fb8d0da836d
+SHA256: c257e2988e301eb5d57ae071ccd91d8263cfd8669cac1f7824c6b0f9f29a64d9
 Section: Tweaks
 Priority: optional
 Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改

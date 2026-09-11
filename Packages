@@ -755,17 +755,17 @@ Icon: https://repo.anthopak.dev/assets/com.anthopak.pancake-rootless/icon.png
 Name: PanCake (Rootless) 汉化版
 
 Package: com.tsangbaby.pulloverx
-Version: 2.0.4
+Version: 2.0.5
 Architecture: iphoneos-arm64
 Maintainer: Tsangbaby
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
 Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
 Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
-Filename: debs/PullOverX_2.0.4_Rootless_iphoneos-arm64.deb
-Size: 585772
-MD5sum: 33597b602726a73d0a3d083787e5a2e5
-SHA1: f9faeaf641ba952025fc4330cecd30cfdec2b475
-SHA256: bb2513d731f027e152a489e762603c4c0adc3d5c87918514621e97a55482304b
+Filename: debs/PullOverX_2.0.5_Rootless_iphoneos-arm64.deb
+Size: 585990
+MD5sum: d1de3bd542ca36bc9b237d534acea3f2
+SHA1: e2baef8627171c9265065937c108d10d2f769912
+SHA256: e953cfc89c45e0cc667c124596101e46148733919a33874e73bf6d64e5513616
 Section: Tweaks
 Priority: optional
 Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
@@ -776,17 +776,17 @@ Name: PullOver X
 Sileodepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/depiction.json
 
 Package: com.tsangbaby.pulloverx
-Version: 2.0.4
+Version: 2.0.5
 Architecture: iphoneos-arm64e
 Maintainer: Tsangbaby
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
 Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
 Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
-Filename: debs/PullOverX_2.0.4_RootHide_iphoneos-arm64e.deb
-Size: 582202
-MD5sum: b3f3002868f094468c42d7e12016beff
-SHA1: 6897861ee0061dd4a0f7c1efe7fa2fb8d0da836d
-SHA256: c257e2988e301eb5d57ae071ccd91d8263cfd8669cac1f7824c6b0f9f29a64d9
+Filename: debs/PullOverX_2.0.5_RootHide_iphoneos-arm64e.deb
+Size: 582400
+MD5sum: 6806e247b4f2f510d5f90a8890108031
+SHA1: 08ee2da0bc4e0c60860fba21e743925d2db13091
+SHA256: 322e65952a539bee63d50f724f3f0b5a72c46d83721629fa433f739c6121fb65
 Section: Tweaks
 Priority: optional
 Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改

@@ -65,13 +65,24 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "0.0.5",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 新增左右震动、跳起落地、果冻挤压动画。",     
+          "useRawFormat": false
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "0.0.4",
           "useBoldText": true,
           "useBottomMargin": false
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- 新增几种动画。",     
+          "markdown": "- 新增弹跳、左右摇摆、轻微旋转动画。",     
           "useRawFormat": false
         },
         {

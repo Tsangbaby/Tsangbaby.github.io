@@ -815,6 +815,26 @@ Author: Tsangbaby
 Icon: https://tsangbaby.github.io/Icon/RandomIconFlip.png
 Name: Random Icon Flip
 
+Package: com.tsangbaby.randomiconsflip
+Version: 0.0.3
+Architecture: iphoneos-arm64e
+Maintainer: Tsangbaby
+Installed-Size: 124
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: net.limneos.randomiconsflip
+Replaces: net.limneos.randomiconsflip
+Filename: debs/RandomIconFlip_0.0.3_RootHide_arm64e.deb
+Size: 24296
+MD5sum: e801876fef06657969ccd7c5c12ceb12
+SHA1: f2fd0f2b7444aba8fd0bcf08620de078034fc1fd
+SHA256: 1fea420df164252b3826df7542968a5117162ed4aed500ed2245248525dd1e28
+Section: Tweaks
+Description: Randomly flips visible Home Screen icons. Swift-core rewrite for iOS 15 and later.
+Author: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/RandomIconFlip.png
+Name: Random Icon Flip
+Sileodepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.randomiconsflip/depiction.json
+
 Package: com.vita.wchook
 Version: 1.0-2
 Architecture: iphoneos-arm64

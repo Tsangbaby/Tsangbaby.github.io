@@ -73,7 +73,7 @@
           "class": "DepictionMarkdownView",
           "markdown": "- 新增几种动画。",     
           "useRawFormat": false
-        }
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "0.0.3",

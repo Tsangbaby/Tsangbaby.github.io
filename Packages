@@ -797,37 +797,18 @@ Name: PullOver X
 Sileodepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/depiction.json
 
 Package: com.tsangbaby.randomiconsflip
-Version: 0.0.2
+Version: 0.0.4
 Architecture: iphoneos-arm64e
 Maintainer: Tsangbaby
-Installed-Size: 120
+Installed-Size: 140
 Depends: firmware (>= 15.0), mobilesubstrate
 Conflicts: net.limneos.randomiconsflip
 Replaces: net.limneos.randomiconsflip
-Filename: debs/com.tsangbaby.randomiconsflip_0.0.2_iphoneos-arm64e.deb
-Size: 21912
-MD5sum: 8567311b3ae1dec89edf062b4b760f28
-SHA1: cfc80aa1ae8e0a13ff2ac33d100b623957eaf8c3
-SHA256: 52b8f1df52a9e252b07bb63a2d3dd6a89e04a74de1592cfe163653f3c99a24a1
-Section: Tweaks
-Description: Randomly flips visible Home Screen icons. Swift-core rewrite for iOS 15 and later.
-Author: Tsangbaby
-Icon: https://tsangbaby.github.io/Icon/RandomIconFlip.png
-Name: Random Icon Flip
-
-Package: com.tsangbaby.randomiconsflip
-Version: 0.0.3
-Architecture: iphoneos-arm64e
-Maintainer: Tsangbaby
-Installed-Size: 124
-Depends: firmware (>= 15.0), mobilesubstrate
-Conflicts: net.limneos.randomiconsflip
-Replaces: net.limneos.randomiconsflip
-Filename: debs/RandomIconFlip_0.0.3_RootHide_arm64e.deb
-Size: 24296
-MD5sum: e801876fef06657969ccd7c5c12ceb12
-SHA1: f2fd0f2b7444aba8fd0bcf08620de078034fc1fd
-SHA256: 1fea420df164252b3826df7542968a5117162ed4aed500ed2245248525dd1e28
+Filename: debs/RandomIconFlip_0.0.4_RootHide_amplitude2_arm64e.deb
+Size: 27076
+MD5sum: a9c32cfa2c9c902b49a3be00f1fb817b
+SHA1: 50720f93c291a6f613bccfff41f6afe01f13ff79
+SHA256: 644973cd141b023bb4fad09b9c4346327f9dfdc870a71b28f7ffd4ea44b3b4b6
 Section: Tweaks
 Description: Randomly flips visible Home Screen icons. Swift-core rewrite for iOS 15 and later.
 Author: Tsangbaby

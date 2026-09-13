@@ -65,6 +65,15 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "0.0.4",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 新增几种动画。",
+        {
+          "class": "DepictionSubheaderView",
           "title": "0.0.3",
           "useBoldText": true,
           "useBottomMargin": false

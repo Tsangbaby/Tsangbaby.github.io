@@ -70,6 +70,17 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "2.1.1",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 优化动画衔接：面板、QuickSwitch、键盘缩放和 floating 操作支持更平滑的中断与接管，快速连续操作时减少跳变；\n\n- 提升 QuickSwitch 首次打开速度：提前准备应用列表数据，减少打开时的同步等待；\n\n- 增加 QuickSwitch 列表刷新保护：设置、托管 App 或前台 App 变化后自动更新，避免显示旧列表；\n\n- 修复横屏托管卡片上下拖动、QuickSwitch hover/分页及浮动操作的边界稳定性问题；\n\n- 改善横屏场景下键盘缩放恢复和 QuickSwitch 切换动画；\n\n- 优化一些未知问题。",
+          "useRawFormat": false
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "2.1",
           "useBoldText": true,
           "useBottomMargin": false

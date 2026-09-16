@@ -65,6 +65,28 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "0.0.7",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 新增风吹叶片动画。",     
+          "useRawFormat": false
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "0.0.6",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 新增轨道螺旋动画。",     
+          "useRawFormat": false
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "0.0.5",
           "useBoldText": true,
           "useBottomMargin": false

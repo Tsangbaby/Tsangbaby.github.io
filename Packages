@@ -881,18 +881,18 @@ Name: PullOver X
 Sileodepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/depiction.json
 
 Package: com.tsangbaby.randomiconsflip
-Version: 0.0.7
+Version: 0.0.8
 Architecture: iphoneos-arm64e
 Maintainer: Tsangbaby
 Installed-Size: 156
 Depends: firmware (>= 15.0), mobilesubstrate
 Conflicts: net.limneos.randomiconsflip
 Replaces: net.limneos.randomiconsflip
-Filename: debs/RandomFlip_0.0.7_RootHide_iphoneos-arm64e.deb
-Size: 29688
-MD5sum: 45b2d45d71fbc4f179070da46cab3772
-SHA1: 4e549d40075fe4ee9efd5f835abe9af8737c8b6c
-SHA256: fc8c156266220d1514ad09801926c0c2c35d75deecf24cb0e16c93b17ff8cf6b
+Filename: debs/com.tsangbaby.randomiconsflip_0.0.8_iphoneos-arm64e.deb
+Size: 30472
+MD5sum: 28a9f6cbeebe43362cd7e86be1f48179
+SHA1: 110e95d6548062858e25ff28a66df53286180647
+SHA256: 8743c748fdc01756bb2690a9ed4d6f4321d6e85ca8874680f1f1564752675555
 Section: Tweaks
 Description: Randomly flips visible Home Screen icons. Swift-core rewrite for iOS 15 and later.
 Author: Tsangbaby

@@ -65,6 +65,17 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "0.1.1",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 新增火箭升空和弹弓弹射两种动画；\n\n- 新增每轮随机1～3个图标动画。",     
+          "useRawFormat": false
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "0.0.8",
           "useBoldText": true,
           "useBottomMargin": false

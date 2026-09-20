@@ -70,6 +70,17 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "2.1.2",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 修复在RootHide环境下，Sileo与Patcher之间的Rootless插件转换和直达的问题；\n\n- 优化一些无知愚蠢的用户。",
+          "useRawFormat": false
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "2.1.1",
           "useBoldText": true,
           "useBottomMargin": false
@@ -219,7 +230,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- 新增主屏为横屏且 PullOver X 托管横屏 App 时，双击把手切换为悬浮小窗：拖动把手移动窗口，点击收起窗口，双击恢复窗口原始比例；\n\n- 新增竖屏迷你窗口功能。设置选项开启后，PullOver X 窗口会以迷你窗形式展现，呼出键盘会恢复原始窗口比例，方便输入；（此功能仅在主屏为竖屏且 PullOver X 接管竖屏 App 时可用）\n\n- 修复关闭外部 URL 窗口化时，PullOver X 托管抖音横屏 App 自动收起窗口的问题；\n\n- 修复主屏为竖屏时，窗口竖屏 App 之间切换的动画异常问题；\n\n- 修复 iOS 15 相机问题：开启相机后返回桌面，主屏任意打开 App 时，PullOver X 接管任意 App 后相机（小绿点）在后台自动启动的问题；\n\n- 修复点击消息通知后被 PullOver X 接管冷启动 App 时，通知横幅不会主动消失的问题。（感谢无尽伤痛都锁进黑夜大佬帮忙修复）\n\n**Tips：**关于外部 URL 窗口化问题，建议把支付宝、其他支付 App、Patcher（RootHide 插件转换器）加入黑名单，以免引起不必要的 BUG；这些问题目前不打算修复。",
+          "markdown": "- 新增主屏为横屏且 PullOver X 托管横屏 App 时，双击把手切换为悬浮小窗：拖动把手移动窗口，点击收起窗口，双击恢复窗口原始比例；\n\n- 新增竖屏迷你窗口功能。设置选项开启后，PullOver X 窗口会以迷你窗形式展现，呼出键盘会恢复原始窗口比例，方便输入；（此功能仅在主屏为竖屏且 PullOver X 接管竖屏 App 时可用）\n\n- 修复关闭外部 URL 窗口化时，PullOver X 托管抖音横屏 App 自动收起窗口的问题；\n\n- 修复主屏为竖屏时，窗口竖屏 App 之间切换的动画异常问题；\n\n- 修复 iOS 15 相机问题：开启相机后返回桌面，主屏任意打开 App 时，PullOver X 接管任意 App 后相机（小绿点）在后台自动启动的问题；\n\n- 修复点击消息通知后被 PullOver X 接管冷启动 App 时，通知横幅不会主动消失的问题。（感谢无尽伤痛都锁进黑夜大佬帮忙修复）\n\n**Tips：**关于外部 URL 窗口化问题，建议把支付宝、其他支付 App等加入黑名单，以免引起不必要的 BUG；这些问题目前不打算修复。",
           "useRawFormat": false
         },
         {

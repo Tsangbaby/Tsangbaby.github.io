@@ -838,6 +838,48 @@ Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
 Name: PullOver X
 Sileodepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/depiction.json
 
+Package: com.tsangbaby.pulloverx
+Version: 2.1.3
+Architecture: iphoneos-arm64
+Maintainer: Tsangbaby
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/PullOver-X_2.1.3_rootless.deb
+Size: 892338
+MD5sum: 527766a79802f816091807741a069146
+SHA1: 13478bed273b3b3a69f24c5de81d52e26bd065cc
+SHA256: de72728438edc95f9e0bc633684af249c1e012a3e82de9e0d1f818b54edb657e
+Section: Tweaks
+Priority: optional
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Author: Tsangbaby
+Dev: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+Name: PullOver X
+Sileodepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/depiction.json
+
+Package: com.tsangbaby.pulloverx
+Version: 2.1.3
+Architecture: iphoneos-arm64e
+Maintainer: Tsangbaby
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/PullOver-X_2.1.3_roothide.deb
+Size: 889724
+MD5sum: 4b3665593c4adfa55399dfd855062c12
+SHA1: 80a0d8a3a6895c7b6375da21f4f3d08ab3f33344
+SHA256: ecd3fbfbf6c620ab167fa6457974908df93ebd104add14c512b98ae5aaa151de
+Section: Tweaks
+Priority: optional
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Author: Tsangbaby
+Dev: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+Name: PullOver X
+Sileodepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/depiction.json
+
 Package: com.tsangbaby.randomiconsflip
 Version: 0.1.1
 Architecture: iphoneos-arm64e

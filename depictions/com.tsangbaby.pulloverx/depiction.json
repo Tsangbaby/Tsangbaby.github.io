@@ -70,6 +70,17 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "2.1.5",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 修复iOS15主屏由横屏旋转回竖屏时，PullOver X内横屏全屏视频意外退出全屏的问题；\n\n- 提升iOS15托管窗口方向状态的稳定性。",
+          "useRawFormat": false
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "2.1.4",
           "useBoldText": true,
           "useBottomMargin": false

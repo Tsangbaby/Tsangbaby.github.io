@@ -70,6 +70,17 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "2.1.7",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 修复托管悬浮窗口在系统深色/浅色模式切换后外观不同步的问题（引用无尽伤痛都锁进黑夜的代码，感谢大佬）；\n\n- 修复iOS16横屏旋转后返回桌面出现黑影旋转的问题（感谢无尽伤痛都锁进黑夜的修复代码）；\n\n- 修复iOS15当关闭系统竖屏锁定后，两个横屏方向反向切换时跟随旋转的黑影问题。",
+          "useRawFormat": false
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "2.1.6",
           "useBoldText": true,
           "useBottomMargin": false

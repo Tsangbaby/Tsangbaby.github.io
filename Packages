@@ -901,18 +901,18 @@ Name: Random Icon Flip
 Sileodepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.randomiconsflip/depiction.json
 
 Package: com.tsangbaby.statusbarspeed
-Version: 1.0.9
+Version: 1.0.10
 Architecture: iphoneos-arm64e
 Maintainer: Tsangbaby
 Installed-Size: 492
 Depends: mobilesubstrate, preferenceloader
 Conflicts: com.squidforce.statusbarspeed
 Replaces: com.squidforce.statusbarspeed
-Filename: debs/StatusBarSpeed_1.0.9_iphoneos-arm64e.deb
-Size: 99296
-MD5sum: a59f22a6180b222bd93888a7a44cdad7
-SHA1: 25a612ae6f79a207388271396b3e9457ae99e972
-SHA256: 6762dcf9a3b8ce990573427fd6cfa9a204407735333952c158f343bdabda9cb7
+Filename: debs/StatusBarSpeed_1.0.10_iphoneos-arm64e.deb
+Size: 99178
+MD5sum: d0574ccc6020c3bce4b41d2fca8a9494
+SHA1: 102aeb17460bc78190c48be1f6f1e021b71ebb09
+SHA256: d1bf807aa7d452d48c2ae192b326606e881b9ef0dd4736cf105334cee81e0641
 Section: Tweaks
 Description: 状态栏网速，由Tsangbaby重构，适配iOS15-iOS17系统。
 Author: Tsangbaby

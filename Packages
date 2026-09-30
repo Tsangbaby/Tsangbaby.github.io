@@ -918,6 +918,24 @@ Description: 状态栏网速，根据SquidForce的“状态栏网速/Status BarS
 Author: Tsangbaby
 Name: StatusBarSpeed
 
+Package: com.tsangbaby.statusbarspeed
+Version: 1.1.8
+Architecture: iphoneos-arm64e
+Maintainer: Tsangbaby
+Installed-Size: 524
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.squidforce.statusbarspeed
+Replaces: com.squidforce.statusbarspeed
+Filename: debs/StatusBarSpeed-1.1.8-roothide-arm64e.deb
+Size: 102532
+MD5sum: a52a497d822250eb8bcc38d3de21fb31
+SHA1: 6a01e8aaa6a2710edfa76de13e87b8b4030e3eec
+SHA256: dddad06241890465f0bbfff8c62368e62bf73c57173f38294be579440dddb355
+Section: Tweaks
+Description: 状态栏网速，根据SquidForce的“状态栏网速/Status BarSpeed”逆向重写，适配ios15- ios17 系统。
+Author: Tsangbaby
+Name: StatusBarSpeed
+
 Package: com.vita.wchook
 Version: 1.0-2
 Architecture: iphoneos-arm64

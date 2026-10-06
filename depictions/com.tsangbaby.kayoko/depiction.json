@@ -74,6 +74,17 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "5.0",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 新增图片编辑、保存、恢复与失败重试；\n\n- 新增文本翻译、查询、分享等操作；\n\n- 搜索功能扩展，支持更多分类、标签和应用筛选；\n\n- 新增应用黑名单及筛选项排序管理；\n\n- 优化历史记录、搜索索引和数据处理；\n\n- 增强 Hook 接口校验与稳定性。",
+          "useRawFormat": false
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "4.8.1",
           "useBoldText": true,
           "useBottomMargin": false

@@ -70,6 +70,17 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "2.3.0",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 修复竖屏 QuickSwitch 与把手重叠，兼顾原始窗口和迷你窗口；\n\n- 改进分享及 App Link 浮窗跳转，补齐 BrowsingWeb 载荷处理；\n\n- 优化 URL 打开回调顺序。",
+          "useRawFormat": false
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "2.2.2",
           "useBoldText": true,
           "useBottomMargin": false

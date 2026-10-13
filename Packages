@@ -739,6 +739,24 @@ Description: AppLecard默认值恢复工具,无限安全模式安装恢复。
 Author: Crassna
 Name: AppLecard Special
 
+Package: com.tsangbaby.notchhome
+Version: 0.5.0
+Architecture: iphoneos-arm64e
+Maintainer: Tsangbaby
+Installed-Size: 296
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: com.notchhome.tweak
+Replaces: com.notchhome.tweak
+Filename: debs/com.tsangbaby.notchhome_0.5.0_iphoneos-arm64e.deb
+Size: 43202
+MD5sum: 843f3057b7c5120a962fe30599a911a7
+SHA1: 1f3dfe08c8de4343c42aaf14f6be2b2f7273aeb4
+SHA256: 0bf4ab3da415d9fdde638bb1b516dfdad832974c2db9873ae3a08fd23d0624d2
+Section: Tweaks
+Description: Notch Suction Polish For iOS15+
+Author: Tsangbaby
+Name: NotchHome
+
 Package: com.tsangbaby.pancake-rootless
 Version: 2.3
 Architecture: iphoneos-arm64

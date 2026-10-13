@@ -87,7 +87,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- 修复OS16/17悬浮窗口横竖屏切换动画生硬的问题；\n\n- 修复iOS16/17主屏竖屏、左侧托管竖屏App时QuickSwitch选中项错误向左跳的问题；\n\n- 优化部份代码。",
+          "markdown": "- 修复iOS16/17悬浮窗口横竖屏切换动画生硬的问题；\n\n- 修复iOS16/17主屏竖屏、左侧托管竖屏App时QuickSwitch选中项错误向左跳的问题；\n\n- 优化部份代码。",
           "useRawFormat": false
         },
         {

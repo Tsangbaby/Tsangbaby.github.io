@@ -649,6 +649,25 @@ Icon: file:///Library/PreferenceBundles/DockControllerSettings.bundle/icons/Dock
 Name: Dock Controller
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.tsangbaby.arcx
+Version: 1.0.4
+Architecture: iphoneos-arm64e
+Maintainer: Tsangbaby
+Installed-Size: 1648
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, firmware (>= 15.0)
+Conflicts: com.arcx.launcher
+Replaces: com.arcx.launcher
+Filename: debs/com.tsangbaby.arcx_1.0.4_iphoneos-arm64e.deb
+Size: 271362
+MD5sum: adc4f8680cfd46270cc8d3796a3f6ca2
+SHA1: 7cc71c401840150ce0b355f76e2fe918a09eb2b4
+SHA256: 048b427dacfce2775c98fd07e5c6b87b3817fb03564e6b2443b2dce74ec5505e
+Section: Tweaks
+Description: Independent Arc-X fullscreen app launcher.
+Author: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Arc-X.png
+Name: Arc-X
+
 Package: com.tsangbaby.autoscroll
 Version: 1.1
 Architecture: iphoneos-arm64e

@@ -70,6 +70,17 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "2.3.1",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 新增 ShellX 截图冻结快捷项；\n\n- 优化横屏快速切换布局与翻页触控；\n\n- 减少设置读取开销，完善关闭插件时的资源清理；\n\n- 更新设置图标。",
+          "useRawFormat": false
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "2.3.0",
           "useBoldText": true,
           "useBottomMargin": false

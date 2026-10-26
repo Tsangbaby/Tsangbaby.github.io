@@ -70,6 +70,17 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "2.3.2",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 新增“搜索应用”，支持搜索并悬浮打开 App；\n\n- 优化搜索面板与键盘过渡动画。",
+          "useRawFormat": false
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "2.3.1",
           "useBoldText": true,
           "useBottomMargin": false

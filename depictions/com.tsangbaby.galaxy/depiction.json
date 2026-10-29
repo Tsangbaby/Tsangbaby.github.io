@@ -75,7 +75,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- 初始版本发布。",
+          "markdown": "- 初始版本发布。玻璃质感选项不建议打开，存在部份掉帧现象，后续会优化。",
           "useRawFormat": false
         }
       ]

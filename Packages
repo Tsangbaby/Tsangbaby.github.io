@@ -703,6 +703,42 @@ Author: Tsangbaby
 Icon: file:///Library/PreferenceBundles/CopyLitePrefs.bundle/icon.png
 Name: CopyLite
 
+Package: com.tsangbaby.galaxy
+Version: 0.2.3
+Architecture: iphoneos-arm64e
+Maintainer: Tsangbaby
+Installed-Size: 2108
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/com.tsangbaby.galaxy_0.2.3_iphoneos-arm64e.deb
+Size: 430400
+MD5sum: 5140fb931cf19fd1dbb6e78c32d3698f
+SHA1: 19cc503cf234eb752f6cb82ab38275e90273a9b8
+SHA256: c62a463b6bef5b2397125294c339a5895d4c7da0dbd8cc48b891210aec838b4b
+Section: Tweaks
+Description: Independent circular app launcher for iOS 15 and later.
+Author: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Galaxy.png
+Name: Galaxy
+Sileodepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.galaxy/depiction.json
+
+Package: com.tsangbaby.galaxy
+Version: 0.2.3
+Architecture: iphoneos-arm64
+Maintainer: Tsangbaby
+Installed-Size: 2108
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/com.tsangbaby.galaxy_0.2.3_iphoneos-arm64.deb
+Size: 431096
+MD5sum: 58dfe464ecc26581e26505bf627be0e2
+SHA1: ff929b65bf5ebdde9316615d62e2e871f938a2ca
+SHA256: 8be7a04fcee8279e68b41e4f44574d1f85bcde6d8ee586ec774659aba1ba062d
+Section: Tweaks
+Description: Independent circular app launcher for iOS 15 and later.
+Author: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Galaxy.png
+Name: Galaxy
+Sileodepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.galaxy/depiction.json
+
 Package: com.tsangbaby.lecard.wuyu
 Version: 991.1.10
 Architecture: iphoneos-arm64

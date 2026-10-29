@@ -703,46 +703,6 @@ Author: Tsangbaby
 Icon: file:///Library/PreferenceBundles/CopyLitePrefs.bundle/icon.png
 Name: CopyLite
 
-Package: com.tsangbaby.kayoko
-Version: 5.0
-Architecture: iphoneos-arm64e
-Maintainer: Tsangbaby
-Installed-Size: 3516
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
-Conflicts: com.mlgm.kayoko, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
-Replaces: com.mlgm.kayoko, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
-Filename: debs/Kayoko_5.0_RootHide.deb
-Size: 747256
-MD5sum: 6ec153010691abedd96fb48eda3f278f
-SHA1: e0960dc7f39fc4fa154989a3f9ea657cf893c2bc
-SHA256: 2debbba98ea8146333eeb57657cfc188abb53e12283845cb1def3b4a12874d9b
-Section: Tweaks
-Description: Kayoko 剪切板，Tsangbaby 基于 mlgm 版进行二次修改
-Author: Tsangbaby
-Icon: https://tsangbaby.github.io/Icon/Kayoko.png
-Name: Kayoko
-Sileodepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.kayoko/depiction.json
-
-Package: com.tsangbaby.kayoko
-Version: 5.0
-Architecture: iphoneos-arm64
-Maintainer: Tsangbaby
-Installed-Size: 3532
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
-Conflicts: com.mlgm.kayoko, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
-Replaces: com.mlgm.kayoko, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
-Filename: debs/Kayoko_5.0_Rootless.deb
-Size: 746300
-MD5sum: 4a440fb9a323012a6157f64817de1f44
-SHA1: fb89c14ff5e4f9b05a1e582bf276dd68cf6ab342
-SHA256: 4e7e4407e177f357f6231a81ec2b07a9d936cf4f8e3d1dd1c8552a415dcf866a
-Section: Tweaks
-Description: Kayoko 剪切板，Tsangbaby 基于 mlgm 版进行二次修改
-Author: Tsangbaby
-Icon: https://tsangbaby.github.io/Icon/Kayoko.png
-Name: Kayoko
-Sileodepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.kayoko/depiction.json
-
 Package: com.tsangbaby.lecard.wuyu
 Version: 991.1.10
 Architecture: iphoneos-arm64

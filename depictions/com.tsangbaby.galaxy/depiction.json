@@ -1,0 +1,84 @@
+{
+  "class": "DepictionTabView",
+  "tintColor": "#2100CA",
+  "minVersion": "0.3",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "描述",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "银河浩瀚无垠，星光将伴你徐行，寻觅归途。",
+          "useRawFormat": true
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 6,
+          "itemSize": "{160, 346.67}",
+          "screenshots": [
+            {
+              "accessibilityText": "图 1",
+              "url": "https://Tsangbaby.github.io/depictions/com.tsangbaby.galaxy/1.png"
+            },
+            {
+              "accessibilityText": "图 2",
+              "url": "https://Tsangbaby.github.io/depictions/com.tsangbaby.galaxy/2.png"
+            },
+            {
+              "accessibilityText": "图 3",
+              "url": "https://Tsangbaby.github.io/depictions/com.tsangbaby.galaxy/3.png"
+            },
+            {
+              "accessibilityText": "图 4",
+              "url": "https://Tsangbaby.github.io/depictions/com.tsangbaby.galaxy/4.png"
+            }
+          ]
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "详情",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 8
+        },
+        {
+          "class": "DepictionTableTextView",
+          "text": "iOS 15.0 +",
+          "title": "支持系统"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "0.2.3",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 初始版本发布。",
+          "useRawFormat": false
+        }
+      ]
+    }
+  ]
+}

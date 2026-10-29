@@ -67,6 +67,17 @@
       "class": "DepictionStackView",
       "tabname": "更新",
       "views": [
+{
+          "class": "DepictionSubheaderView",
+          "title": "0.2.8",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 新增星河流转动画，同时优化动画速度；\n\n- 新增 Myrtle 和 FloatingView 打开方式；\n\n- 修复iOS17系统快捷不生效的问题。",
+          "useRawFormat": false
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "0.2.3",

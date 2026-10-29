@@ -739,6 +739,42 @@ Icon: https://tsangbaby.github.io/Icon/Galaxy.png
 Name: Galaxy
 Sileodepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.galaxy/depiction.json
 
+Package: com.tsangbaby.galaxy
+Version: 0.2.8
+Architecture: iphoneos-arm64e
+Maintainer: Tsangbaby
+Installed-Size: 2112
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/com.tsangbaby.galaxy_0.2.8_iphoneos-arm64e.deb
+Size: 435194
+MD5sum: 600bdf510f646a884c52b1ad6c345aa9
+SHA1: a25b14ede5eef27d01579c573be30dfa140e836f
+SHA256: 95430e76eca6f999c26e1d152fec10d3c6ff00c685bf2e1c80aa2a4722278ead
+Section: Tweaks
+Description: Independent circular app launcher for iOS 15 and later.
+Author: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Galaxy.png
+Name: Galaxy
+Sileodepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.galaxy/depiction.json
+
+Package: com.tsangbaby.galaxy
+Version: 0.2.8
+Architecture: iphoneos-arm64
+Maintainer: Tsangbaby
+Installed-Size: 2112
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/com.tsangbaby.galaxy_0.2.8_iphoneos-arm64.deb
+Size: 435842
+MD5sum: 4a897b30fb10274d4e6ae70d8a8bc9e2
+SHA1: d11d66998fa25f3848512ebb3c43531cc539cf0a
+SHA256: 9df00f00a3f70610b28742826f375385f7b04f8ef3b46616d4981c33b551bcee
+Section: Tweaks
+Description: Independent circular app launcher for iOS 15 and later.
+Author: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Galaxy.png
+Name: Galaxy
+Sileodepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.galaxy/depiction.json
+
 Package: com.tsangbaby.lecard.wuyu
 Version: 991.1.10
 Architecture: iphoneos-arm64

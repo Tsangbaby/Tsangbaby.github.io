@@ -69,6 +69,17 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "0.3.4",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 修复系统快捷部份失效功能。",
+          "useRawFormat": false
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "0.3.2",
           "useBoldText": true,
           "useBottomMargin": false

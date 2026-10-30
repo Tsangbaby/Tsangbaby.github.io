@@ -775,6 +775,38 @@ Icon: https://tsangbaby.github.io/Icon/Galaxy.png
 Name: Galaxy
 Sileodepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.galaxy/depiction.json
 
+Package: com.tsangbaby.kbrc
+Version: 1.0.3
+Architecture: iphoneos-arm64e
+Maintainer: Tsangbaby
+Installed-Size: 168
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.tsangbaby.kbrc_1.0.3_iphoneos-arm64e.deb
+Size: 4020
+MD5sum: cf6a80358411ac36060bc6219232e164
+SHA1: 1f5d0b51afb89fd0cf1e5ea22615d8b7f4760bf2
+SHA256: 1e2896609510e24fa7bed676277e1b6214bb5c8d1d2a72ab8024c244499f48cb
+Section: Tweaks
+Description: 调整系统键盘按键圆角，让键盘外观更加圆润、简洁。需要 iOS 15 或更高版本。
+Author: Tsangbaby
+Name: 系统键盘圆角
+
+Package: com.tsangbaby.kbrc
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: Tsangbaby
+Installed-Size: 168
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.tsangbaby.kbrc_1.0.3_iphoneos-arm64.deb
+Size: 4078
+MD5sum: 61ce45cf4c17966fd32b5b5293792a64
+SHA1: 4a49bdb414070dbf74efd603dbccfd7cd4c8f1eb
+SHA256: c01ee2713a06eb5f048f51790c5fd49defb01201dd374014ae61f62fff0d67c4
+Section: Tweaks
+Description: 调整系统键盘按键圆角，让键盘外观更加圆润、简洁。需要 iOS 15 或更高版本。
+Author: Tsangbaby
+Name: 系统键盘圆角
+
 Package: com.tsangbaby.lecard.wuyu
 Version: 991.1.10
 Architecture: iphoneos-arm64

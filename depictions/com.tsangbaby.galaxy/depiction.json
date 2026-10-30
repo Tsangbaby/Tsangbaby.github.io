@@ -67,7 +67,18 @@
       "class": "DepictionStackView",
       "tabname": "更新",
       "views": [
-{
+        {
+          "class": "DepictionSubheaderView",
+          "title": "0.3.2",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 修复动态动作和管理菜单无法删除的问题；\n\n- 新增滑块数值长按输入精确数值。",
+          "useRawFormat": false
+        },
+        {
           "class": "DepictionSubheaderView",
           "title": "0.2.8",
           "useBoldText": true,

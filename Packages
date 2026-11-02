@@ -704,16 +704,16 @@ Icon: file:///Library/PreferenceBundles/CopyLitePrefs.bundle/icon.png
 Name: CopyLite
 
 Package: com.tsangbaby.galaxy
-Version: 0.3.2
+Version: 0.5.3
 Architecture: iphoneos-arm64
 Maintainer: Tsangbaby
-Installed-Size: 2176
+Installed-Size: 2852
 Depends: firmware (>= 15.0), preferenceloader
-Filename: debs/com.tsangbaby.galaxy_0.3.2_iphoneos-arm64.deb
-Size: 449036
-MD5sum: 0e4b25d7b709104741eacfb9f6f037f9
-SHA1: 28a7e9cbbeb55fb6c298ff2509c69b964e173dac
-SHA256: 99bf1cbe631003e29bbd5efaca86f20f5bcca8e4e7f8d8a0d6cb11f8099eef0e
+Filename: debs/com.tsangbaby.galaxy_0.5.3_iphoneos-arm64.deb
+Size: 620174
+MD5sum: 44c88752c197c503cb6cdf39c266b6ee
+SHA1: 62528c0a6e1512f6988386cef5f08c88f9470de4
+SHA256: 61c70600eced5f86a679a4ba9b8fa4f956f7e0591db9815f2760451fa180fc06
 Section: Tweaks
 Description: Independent circular app launcher for iOS 15 and later.
 Author: Tsangbaby
@@ -722,52 +722,16 @@ Name: Galaxy
 Sileodepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.galaxy/depiction.json
 
 Package: com.tsangbaby.galaxy
-Version: 0.3.2
+Version: 0.5.3
 Architecture: iphoneos-arm64e
 Maintainer: Tsangbaby
-Installed-Size: 2176
+Installed-Size: 2852
 Depends: firmware (>= 15.0), preferenceloader
-Filename: debs/com.tsangbaby.galaxy_0.3.2_iphoneos-arm64e.deb
-Size: 449328
-MD5sum: 3663cd81b1ac0b2a1f9e03aeb8a2e7ad
-SHA1: 06c1264e548afce5e3eeb1817f567d77094abf98
-SHA256: 45490c0eed2d3eb895a14a1421ab9a40e5d6174d637316081f80100177ed66c5
-Section: Tweaks
-Description: Independent circular app launcher for iOS 15 and later.
-Author: Tsangbaby
-Icon: https://tsangbaby.github.io/Icon/Galaxy.png
-Name: Galaxy
-Sileodepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.galaxy/depiction.json
-
-Package: com.tsangbaby.galaxy
-Version: 0.3.4
-Architecture: iphoneos-arm64
-Maintainer: Tsangbaby
-Installed-Size: 2208
-Depends: firmware (>= 15.0), preferenceloader
-Filename: debs/com.tsangbaby.galaxy_0.3.4_iphoneos-arm64.deb
-Size: 452984
-MD5sum: 9182e8a41043a11462f002c1373d9afd
-SHA1: 19b49a39abfc9c38522eff2fa18d6d101be718f2
-SHA256: d6751d97a1d8fd9950b821332478d3e9274918dd1cee79c2d17b029fb579e155
-Section: Tweaks
-Description: Independent circular app launcher for iOS 15 and later.
-Author: Tsangbaby
-Icon: https://tsangbaby.github.io/Icon/Galaxy.png
-Name: Galaxy
-Sileodepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.galaxy/depiction.json
-
-Package: com.tsangbaby.galaxy
-Version: 0.3.4
-Architecture: iphoneos-arm64e
-Maintainer: Tsangbaby
-Installed-Size: 2208
-Depends: firmware (>= 15.0), preferenceloader
-Filename: debs/com.tsangbaby.galaxy_0.3.4_iphoneos-arm64e.deb
-Size: 452844
-MD5sum: 0f7860d6a486a96b1fa5cec2ed75f904
-SHA1: 19a9f8e88dc3bc8233dc7d16ba101e2895f561bb
-SHA256: 00a2aa1c1d54b66b78b7d29cf77b68971b88adc2b955c6f4103b5b98aa6b5ddb
+Filename: debs/com.tsangbaby.galaxy_0.5.3_iphoneos-arm64e.deb
+Size: 620288
+MD5sum: 2f39510b16f8f041163b0c37a6c99f3a
+SHA1: 5d566013372b74bd7fa40d2d79018d84d50a5368
+SHA256: 58ad9b06a25f175f956329c95cbb6df0f7a98263f0c7cb1e143efebc3b8840c6
 Section: Tweaks
 Description: Independent circular app launcher for iOS 15 and later.
 Author: Tsangbaby
@@ -882,39 +846,17 @@ Name: PullOver X
 Sileodepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/depiction.json
 
 Package: com.tsangbaby.pulloverx
-Version: 2.3.0
-Architecture: iphoneos-arm64e
-Maintainer: Tsangbaby
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
-Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
-Filename: debs/com.tsangbaby.pulloverx_2.3.0_iphoneos-arm64e.deb
-Size: 625520
-MD5sum: 7193d791607efa300c392f34429e5a13
-SHA1: 0991d9d919ded5f5399a45368eab934547d64bf8
-SHA256: 01343f02fa7e5869846c50649dd61c6a21131db687f914d0fe6ea76c59ff9c32
-Section: Tweaks
-Priority: optional
-Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
-Author: Tsangbaby
-Depiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/
-Dev: Tsangbaby
-Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
-Name: PullOver X
-Sileodepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/depiction.json
-
-Package: com.tsangbaby.pulloverx
-Version: 2.3.0
+Version: 2.4.0
 Architecture: iphoneos-arm64
 Maintainer: Tsangbaby
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
 Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
 Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
-Filename: debs/com.tsangbaby.pulloverx_2.3.0_iphoneos-arm64.deb
-Size: 627580
-MD5sum: 5c709de3a980356c5daeed88d3123c56
-SHA1: 0deae0037c2f9f1e513924c4bab41b89ff419a00
-SHA256: 98016d49e4358fcd56a72619b36956b8026210370e1d1066c2c72e7e85c57d44
+Filename: debs/com.tsangbaby.pulloverx_2.4.0_iphoneos-arm64.deb
+Size: 678840
+MD5sum: dc4d46d762443c89083905f26e43d157
+SHA1: 0cb41da73e0ee6bb36a737b0709bc159dcf1b6e1
+SHA256: 021565e7e1ed929ef5560aa87d3b757e3859d15e90fef03ef363c1829cde5228
 Section: Tweaks
 Priority: optional
 Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
@@ -926,39 +868,17 @@ Name: PullOver X
 Sileodepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/depiction.json
 
 Package: com.tsangbaby.pulloverx
-Version: 2.3.1
+Version: 2.4.0
 Architecture: iphoneos-arm64e
 Maintainer: Tsangbaby
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
 Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
 Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
-Filename: debs/com.tsangbaby.pulloverx_2.3.1_iphoneos-arm64e.deb
-Size: 637420
-MD5sum: b799956c9af3a9dbe966fae9d63a373d
-SHA1: 28f03b923358245a188732a1001afd54537d6f3a
-SHA256: bd8160f340cc8c2f18fefad0186adc6e27d4c9c680edb7305a6824bb52e1149f
-Section: Tweaks
-Priority: optional
-Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
-Author: Tsangbaby
-Depiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/
-Dev: Tsangbaby
-Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
-Name: PullOver X
-Sileodepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/depiction.json
-
-Package: com.tsangbaby.pulloverx
-Version: 2.3.2
-Architecture: iphoneos-arm64e
-Maintainer: Tsangbaby
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
-Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
-Filename: debs/com.tsangbaby.pulloverx_2.3.2_iphoneos-arm64e.deb
-Size: 671500
-MD5sum: 0632d92595ca1f1409b39c316026e2ba
-SHA1: 2623b74356459458ef2eef64d5daf7f943bd227b
-SHA256: 1d0aa343f4a12c8defbf943d71d87608254a82b3644e660d0654cdf8bc7828bc
+Filename: debs/com.tsangbaby.pulloverx_2.4.0_iphoneos-arm64e.deb
+Size: 676960
+MD5sum: 2b85d0356c0d514c47eabad50aa079bb
+SHA1: a35ad7cf6db01e574c5318b5af83fabb3b4252db
+SHA256: b8ddce754f68d8ec601e4262e6f0aa86a31413682318fd31352d57d86904843a
 Section: Tweaks
 Priority: optional
 Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改

@@ -70,6 +70,17 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "2.4.0",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 新增应用拼音、首字母搜索。\n\n- 增加排除域名输入校验，避免保存无效规则。\n\n- 修正通知横幅窗口化默认值，保留已有开关设置。",
+          "useRawFormat": false
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "2.3.2",
           "useBoldText": true,
           "useBottomMargin": false

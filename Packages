@@ -787,6 +787,26 @@ Description: AppLecard默认值恢复工具,无限安全模式安装恢复。
 Author: Crassna
 Name: AppLecard Special
 
+Package: com.tsangbaby.ntfy
+Version: 1.0.5
+Architecture: iphoneos-arm64e
+Maintainer: Tsangbaby
+Installed-Size: 528
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.witu.ntfy
+Replaces: com.witu.ntfy
+Provides: com.witu.ntfy
+Filename: debs/com.tsangbaby.ntfy_1.0.5_iphoneos-arm64e.deb
+Size: 82560
+MD5sum: d4d5dd35aede410ca13e4eda9bcd3942
+SHA1: ff1a9cf4bb52971cb49a62048f274638d9154a95
+SHA256: c3eee7231db957a7a57f298e0407037a39985c96ab24358f5139109e062200fc
+Section: Tweaks
+Description: Rewritten through reverse engineering, with bug fixes, detail refinements, RootHide support, and Chinese localization. Minimal, customisable notification dots for Home Screen icons and folders.
+Tag: compatible_min::ios15.0
+Author: Tsangbaby
+Name: Ntfy
+
 Package: com.tsangbaby.pancake-rootless
 Version: 2.3
 Architecture: iphoneos-arm64

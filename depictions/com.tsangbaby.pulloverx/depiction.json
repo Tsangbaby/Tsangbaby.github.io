@@ -70,6 +70,17 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "2.4.1",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 改进 QQ 分享可见性处理，兼顾冷、热启动；\n\n- 完善挂起、退出及重启后的临时授权回收与隔离；\n\n- 减少设置读取开销，完善关闭插件时的资源清理；\n\n- 优化计时器与进程记录回收，减少无效资源滞留。",
+          "useRawFormat": false
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "2.4.0",
           "useBoldText": true,
           "useBottomMargin": false

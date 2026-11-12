@@ -70,6 +70,17 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "2.4.3",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 修复收藏刷新：添加、移除或排序后，首次呼出 QuickSwitch 即显示最新内容；\n\n- 优化收藏及外部链接排除列表保留暂不可用的 App，编辑其他项目不再误删，支持主动移除；\n\n- 优化 QuickSwitch 跳过不可用或已隐藏的收藏 App，不清除已保存配置。",
+          "useRawFormat": false
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "2.4.1",
           "useBoldText": true,
           "useBottomMargin": false

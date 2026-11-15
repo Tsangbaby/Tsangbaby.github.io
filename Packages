@@ -739,6 +739,24 @@ Icon: https://tsangbaby.github.io/Icon/Galaxy.png
 Name: Galaxy
 Sileodepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.galaxy/depiction.json
 
+Package: com.tsangbaby.galaxy
+Version: 0.6.4
+Architecture: iphoneos-arm64e
+Maintainer: Tsangbaby
+Installed-Size: 2960
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/com.tsangbaby.galaxy_0.6.4_iphoneos-arm64e.deb
+Size: 656642
+MD5sum: 4847a18779414e198ed43743d84d8bd0
+SHA1: f95e587789c16169dd6a38698652f00fb6b5c378
+SHA256: ffdf3bde0a85fc7a8bbd4ba08997b532bab189eeee0c42fa7322ef7db321d4d9
+Section: Tweaks
+Description: Independent circular app launcher for iOS 15 and later.
+Author: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Galaxy.png
+Name: Galaxy
+Sileodepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.galaxy/depiction.json
+
 Package: com.tsangbaby.kbrc
 Version: 1.0.3
 Architecture: iphoneos-arm64e
@@ -1082,6 +1100,24 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=doublecutD
 Dev: rplus
 Icon: file:///Library/PreferenceBundles/DoubleCutSettings.bundle/DoubleCut@2x.png
 Name: DoubleCut
+
+Package: lai28.springanimation
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: 剑来
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/lai28.springanimation_1.0_iphoneos-arm64e.deb
+Size: 3663
+MD5sum: b58d6322ea7673c71c8f2d5a1831fa4a
+SHA1: af6d67403e6bc6033aca86056e15ebfc26ff6c77
+SHA256: 6341a8b6005b2ad8a27c798dcac7c7ae3c92e4bf2a6c5f8e3a0f27d6d42c9846
+Section: 系统增强
+Description: 桌面交互动画   返回0.5   切换0.3
+Author: 苏苏 & 剑来
+Icon: http://lai28.988456.xyz/resources/section-icons/xitong.png
+Name: SpringAnimation
+Sileodepiction: http://lai28.988456.xyz/api/sileo/290/native/
 
 Package: libflex
 Version: 4.7.1

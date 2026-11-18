@@ -983,35 +983,37 @@ Icon: https://tsangbaby.github.io/Icon/StatusBarSpeed.png
 Name: StatusBarSpeed
 
 Package: com.tsangbaby.storeid
-Version: 0.3.1
-Architecture: iphoneos-arm64
-Maintainer: Tsangbaby
-Installed-Size: 396
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: debs/StoreID-0.3.1-rootless-candidate-3b0137d.deb
-Size: 64632
-MD5sum: 53d94c5339adf935685bc25efe10f413
-SHA1: d276fcf6806fde916c127d19efc6359dd96a2b18
-SHA256: 6ff772eafebcb882747e1df2656d815fdb3758986b441f6e5aa198a04f93d48d
-Section: Tweaks
-Description: Display and copy Bundle IDs on App Store product pages.
-Author: Tsangbaby
-Name: StoreID
-
-Package: com.tsangbaby.storeid
-Version: 0.3.1
+Version: 0.3.2
 Architecture: iphoneos-arm64e
 Maintainer: Tsangbaby
 Installed-Size: 396
 Depends: firmware (>= 15.0), mobilesubstrate
-Filename: debs/StoreID-0.3.1-roothide-candidate-3b0137d.deb
-Size: 64708
-MD5sum: b031e7c025a0ad453f50e202651982bb
-SHA1: dcbd29c4ea07c2889bb6090b4182dbda7cde3327
-SHA256: 60292625c44a1d5c5e68f056f97443b55703dcf7873d4a2916b72c321e6c5efa
+Filename: debs/StoreID-0.3.2-roothide.deb
+Size: 64662
+MD5sum: 60726f6e498d67b3bfcfe40efbba5e8a
+SHA1: 6f684e042bf22eb2398566bc9f52cae292914847
+SHA256: ac7889a2ef1587b07389c7eb4d2012ca725a880826f694608ec2edcfe69d2b5e
 Section: Tweaks
 Description: Display and copy Bundle IDs on App Store product pages.
 Author: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/StoreID.png
+Name: StoreID
+
+Package: com.tsangbaby.storeid
+Version: 0.3.2
+Architecture: iphoneos-arm64
+Maintainer: Tsangbaby
+Installed-Size: 396
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/StoreID-0.3.2-rootless.deb
+Size: 64660
+MD5sum: 1625645b29799c6be7e2003dd5868df1
+SHA1: 5ee6317181024c8b0d6a11018c7e15860a118b7e
+SHA256: f2ab6c5e026bd1a23a21c77f69e197866f2a886442305970b1e6f899916f3e9b
+Section: Tweaks
+Description: Display and copy Bundle IDs on App Store product pages.
+Author: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/StoreID.png
 Name: StoreID
 
 Package: com.vita.wchook

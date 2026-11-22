@@ -477,6 +477,23 @@ Description: Office 2013-styled cursor animation.
 Author: PoomSmart
 Name: SmoothCursor (iOS 13+)
 
+Package: com.ps.smoothcursorios13
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: PoomSmart
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 6.0)
+Conflicts: org.thebigboss.smoothcursor
+Filename: debs/com.ps.smoothcursorios13_0.0.1_iphoneos-arm64e.deb
+Size: 2996
+MD5sum: 547fe5a2f58304e1fded9f655f298967
+SHA1: d9d7eb684996fa1fa96b849e1d9e3d20d7fa1fe3
+SHA256: a07e4949260873f39087b6c6ee4c1778ab3b368bee1f6fed69de5159ed53e543
+Section: Tweaks
+Description: Office 2013-styled cursor animation.
+Author: PoomSmart
+Name: SmoothCursor (iOS 13+)
+
 Package: com.qiop1379.swipeextenderx
 Version: 1.6.2
 Architecture: iphoneos-arm64
@@ -750,6 +767,42 @@ Size: 656642
 MD5sum: 4847a18779414e198ed43743d84d8bd0
 SHA1: f95e587789c16169dd6a38698652f00fb6b5c378
 SHA256: ffdf3bde0a85fc7a8bbd4ba08997b532bab189eeee0c42fa7322ef7db321d4d9
+Section: Tweaks
+Description: Independent circular app launcher for iOS 15 and later.
+Author: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Galaxy.png
+Name: Galaxy
+Sileodepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.galaxy/depiction.json
+
+Package: com.tsangbaby.galaxy
+Version: 0.7.0
+Architecture: iphoneos-arm64
+Maintainer: Tsangbaby
+Installed-Size: 2976
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/com.tsangbaby.galaxy_0.7.0_iphoneos-arm64.deb
+Size: 664844
+MD5sum: bf334b5a74040e102db6dba5baae572d
+SHA1: 25d3e46e64d7a3387d1b15fd5a1336a5d2f54fc1
+SHA256: f46a6fa6d0f51643be5525218b2394a1de02cfd380ae347c55b5de937ce16a24
+Section: Tweaks
+Description: Independent circular app launcher for iOS 15 and later.
+Author: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Galaxy.png
+Name: Galaxy
+Sileodepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.galaxy/depiction.json
+
+Package: com.tsangbaby.galaxy
+Version: 0.7.0
+Architecture: iphoneos-arm64e
+Maintainer: Tsangbaby
+Installed-Size: 2976
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/com.tsangbaby.galaxy_0.7.0_iphoneos-arm64e.deb
+Size: 664014
+MD5sum: 5a55d5a26aa63e53c6e8de25ca4fedac
+SHA1: 5075db493e4bcbb4face31c0e35be1d5c9bcdb22
+SHA256: 00e86bee2bc43dddb5bbb9fcdb5bf4f92199d30ff4a2447ec7ca0f5107f99851
 Section: Tweaks
 Description: Independent circular app launcher for iOS 15 and later.
 Author: Tsangbaby

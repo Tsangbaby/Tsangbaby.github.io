@@ -70,6 +70,17 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "0.7.0",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 新增打开方式「通过 PanoramicView 打开」；\n\n- 开启后，在 App 内呼出 Galaxy 并选择另一个 App，所选 App 会从底部滑入，与当前 App 配对；\n\n- 从主屏幕呼出 Galaxy 时，即使开启 PanoramicView，所选 App 也会直接全屏打开，不发起配对。",
+          "useRawFormat": false
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "0.5.3",
           "useBoldText": true,
           "useBottomMargin": false

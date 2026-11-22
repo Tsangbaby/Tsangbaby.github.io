@@ -1,0 +1,77 @@
+{
+  "class": "DepictionTabView",
+  "headerImage": "https://tsangbaby.github.io/image/storeid.png",
+  "tintColor": "#2100CA",
+  "minVersion": "0.3",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "描述",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "在 App Store 应用详情页显示 Bundle ID，轻点即可复制。",
+          "useRawFormat": true
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 6,
+          "itemSize": "{160, 346.67}",
+          "screenshots": [
+            {
+              "accessibilityText": "图 1",
+              "url": "https://Tsangbaby.github.io/depictions/com.tsangbaby.storeid/1.png"
+            },
+            {
+              "accessibilityText": "图 2",
+              "url": "https://Tsangbaby.github.io/depictions/com.tsangbaby.storeid/2.png"
+            }
+          ]
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "详情",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 8
+        },
+        {
+          "class": "DepictionTableTextView",
+          "text": "iOS 15.0 +",
+          "title": "支持系统"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "0.3.2",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 优化细节。",
+          "useRawFormat": false
+        }
+      ]
+    }
+  ]
+}

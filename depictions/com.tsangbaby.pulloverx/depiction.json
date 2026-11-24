@@ -70,6 +70,17 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "2.5.0",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 优化内存与部份代码：限制重开快照和方向记忆的占用，拆分 QuickSwitch，统一设置和图标读取。",
+          "useRawFormat": false
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "2.4.3",
           "useBoldText": true,
           "useBottomMargin": false

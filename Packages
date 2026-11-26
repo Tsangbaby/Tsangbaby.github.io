@@ -460,6 +460,48 @@ Depiction: https://nscake.github.io/package.html?package=com.pantsthief.flexing
 Name: FLEXing
 Sileodepiction-Unused: https://nscake.github.io/depictions/com.pantsthief.flexing.sileo.json
 
+Package: com.ps.recordpause
+Version: 2.0.7
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 184
+Depends: mobilesubstrate, firmware (>= 9.0), firmware (<< 18.0)
+Conflicts: org.thebigboss.recordpause, com.spicat.recordpause
+Replaces: org.thebigboss.recordpause, com.spicat.recordpause
+Provides: org.thebigboss.recordpause, com.spicat.recordpause
+Filename: debs/com.ps.recordpause_2.0.7_iphoneos-arm64.deb
+Size: 11626
+MD5sum: c855725717acf4ed2a507157be0da035
+SHA1: 978885af8156f6b94cf7c189339180f6160e91b4
+SHA256: 77a55fee2fa8257e6a560c525257d7882d3265a533de249bde73e0cbca5ce830
+Section: Tweaks
+Description: Pauses/resumes video recording in iOS Camera app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/recordpause.html
+Name: RecordPause
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/recordpause.json
+
+Package: com.ps.recordpause
+Version: 2.0.7
+Architecture: iphoneos-arm64e
+Maintainer: PoomSmart
+Installed-Size: 184
+Depends: mobilesubstrate, firmware (>= 9.0), firmware (<< 18.0)
+Conflicts: org.thebigboss.recordpause, com.spicat.recordpause
+Replaces: org.thebigboss.recordpause, com.spicat.recordpause
+Provides: org.thebigboss.recordpause, com.spicat.recordpause
+Filename: debs/com.ps.recordpause_2.0.7_iphoneos-arm64e.deb
+Size: 11578
+MD5sum: 5bec990b9af80eb164533401ceefccd3
+SHA1: e8fd65110b5c68adad277ab4e50caf18c69fd817
+SHA256: 67cd8c8f22966b291eb32c8f69a3a4ee33ddbf7f58b93949ec3ca585f80f52c9
+Section: Tweaks
+Description: Pauses/resumes video recording in iOS Camera app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/recordpause.html
+Name: RecordPause
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/recordpause.json
+
 Package: com.ps.smoothcursorios13
 Version: 0.0.1
 Architecture: iphoneos-arm64
@@ -775,16 +817,16 @@ Name: Galaxy
 Sileodepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.galaxy/depiction.json
 
 Package: com.tsangbaby.galaxy
-Version: 0.7.0
+Version: 0.7.4
 Architecture: iphoneos-arm64
 Maintainer: Tsangbaby
-Installed-Size: 2976
+Installed-Size: 3024
 Depends: firmware (>= 15.0), preferenceloader
-Filename: debs/com.tsangbaby.galaxy_0.7.0_iphoneos-arm64.deb
-Size: 664844
-MD5sum: bf334b5a74040e102db6dba5baae572d
-SHA1: 25d3e46e64d7a3387d1b15fd5a1336a5d2f54fc1
-SHA256: f46a6fa6d0f51643be5525218b2394a1de02cfd380ae347c55b5de937ce16a24
+Filename: debs/com.tsangbaby.galaxy_0.7.4_iphoneos-arm64.deb
+Size: 671502
+MD5sum: 36cbcc3ccec61f2f15c19aa6e5bc2c15
+SHA1: 741ec168e43e2df9b8be4c012e818b82247221a1
+SHA256: 7ab752c02f3ebe0f08c6fd1b20f4de2e5fc9b52c927467ae8c02dde81c44b213
 Section: Tweaks
 Description: Independent circular app launcher for iOS 15 and later.
 Author: Tsangbaby
@@ -793,16 +835,16 @@ Name: Galaxy
 Sileodepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.galaxy/depiction.json
 
 Package: com.tsangbaby.galaxy
-Version: 0.7.0
+Version: 0.7.4
 Architecture: iphoneos-arm64e
 Maintainer: Tsangbaby
-Installed-Size: 2976
+Installed-Size: 3024
 Depends: firmware (>= 15.0), preferenceloader
-Filename: debs/com.tsangbaby.galaxy_0.7.0_iphoneos-arm64e.deb
-Size: 664014
-MD5sum: 5a55d5a26aa63e53c6e8de25ca4fedac
-SHA1: 5075db493e4bcbb4face31c0e35be1d5c9bcdb22
-SHA256: 00e86bee2bc43dddb5bbb9fcdb5bf4f92199d30ff4a2447ec7ca0f5107f99851
+Filename: debs/com.tsangbaby.galaxy_0.7.4_iphoneos-arm64e.deb
+Size: 671130
+MD5sum: 3d0385bfe28332bb01a2c43cfe2e6ded
+SHA1: 5fab7be8bab65aec2b6378ef74fa46dcf8ee085a
+SHA256: d77b5b566ebc09d5e1393f115203360fe2dc3f4cbfd0fe4cb97138aee491978c
 Section: Tweaks
 Description: Independent circular app launcher for iOS 15 and later.
 Author: Tsangbaby

@@ -70,6 +70,17 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "0.7.4",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 新增系统快捷开关颜色：每次呼出菜单时刷新状态。确认开启才显示彩色，关闭或未知显示灰色；\n\n- 新增与 PanoramicView 配对：竖屏新建组合时，所选 App 改为从下方滑入。",
+          "useRawFormat": false
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "0.7.0",
           "useBoldText": true,
           "useBottomMargin": false

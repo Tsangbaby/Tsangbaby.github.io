@@ -70,6 +70,17 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "2.5.6",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 仅主屏为竖屏模式下，新增窗口外部（遮罩区域）长按小窗悬挂模式。",
+          "useRawFormat": false
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "2.5.0",
           "useBoldText": true,
           "useBottomMargin": false

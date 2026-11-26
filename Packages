@@ -982,6 +982,50 @@ Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
 Name: PullOver X
 Sileodepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/depiction.json
 
+Package: com.tsangbaby.pulloverx
+Version: 2.5.6
+Architecture: iphoneos-arm64e
+Maintainer: Tsangbaby
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/com.tsangbaby.pulloverx_2.5.6_iphoneos-arm64e.deb
+Size: 737692
+MD5sum: af79e56b2e62136dc71ab12135e6b37e
+SHA1: 5c8be99dff7fd4fe6e867ada38cd4f4fb0ec7f16
+SHA256: eef9e9dc41f7ed74b28022d8d7ba9be54a2e5f0beaffef4d3fe1dfb46e5fc804
+Section: Tweaks
+Priority: optional
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Author: Tsangbaby
+Depiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/
+Dev: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+Name: PullOver X
+Sileodepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/depiction.json
+
+Package: com.tsangbaby.pulloverx
+Version: 2.5.6
+Architecture: iphoneos-arm64
+Maintainer: Tsangbaby
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/com.tsangbaby.pulloverx_2.5.6_iphoneos-arm64.deb
+Size: 739380
+MD5sum: 692af4c7ff2ec08fa28d0461ecfaf424
+SHA1: 057e13c2d2c96866c19db0536065f9a3800c19a7
+SHA256: c27dcdf7c405e2873621a7e2cb2848a5b6e6f7e6574c2e4b9ec8c0a6d767f3ff
+Section: Tweaks
+Priority: optional
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Author: Tsangbaby
+Depiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/
+Dev: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+Name: PullOver X
+Sileodepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/depiction.json
+
 Package: com.tsangbaby.randomiconsflip
 Version: 0.1.1
 Architecture: iphoneos-arm64e
